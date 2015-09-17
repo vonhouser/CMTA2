@@ -145,6 +145,8 @@
     margin-bottom: 1em;
 }
 
+/*images for Indicator A */
+
 .card .cover.disposable-income {
     background-image: url(/images/dis-inc-bg.png);
     background-size: 100% 125px;
@@ -165,17 +167,40 @@
     background-size: 100% 125px;
 }
 
-.card .cover.walkability {
-    background-image: url(/images/stat-rep-bg.png);
+/* Images for Indicator B*/
+
+
+.card .cover.walk {
+    background-image: url(/images/walk.png);
     background-size: 100% 125px;
-}.card .cover.mode-split {
-    background-image: url(/images/stat-rep-bg.png);
+}.card .cover.mode {
+    background-image: url(/images/mode.png);
     background-size: 100% 125px;
 }.card .cover.isolated {
-    background-image: url(/images/stat-rep-bg.png);
+    background-image: url(/images/isolated.png);
     background-size: 100% 125px;
 }.card .cover.reliable {
-    background-image: url(/images/stat-rep-bg.png);
+    background-image: url(/images/reliable-transit.png);
+    background-size: 100% 125px;
+}
+
+/* Images for Indicator C */
+
+
+}.card .cover.land {
+    background-image: url(/images/land.png);
+    background-size: 100% 125px;
+}
+}.card .cover.pollution {
+    background-image: url(/images/pollution.png);
+    background-size: 100% 125px;
+}
+}.card .cover.commute {
+    background-image: url(/images/commute.png);
+    background-size: 100% 125px;
+}
+}.card .cover.congestion {
+    background-image: url(/images/congestion.png);
     background-size: 100% 125px;
 }
 
