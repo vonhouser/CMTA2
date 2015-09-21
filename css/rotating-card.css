@@ -173,13 +173,16 @@
 .card .cover.walk {
     background-image: url(/images/walk.png);
     background-size: 100% 125px;
-}.card .cover.mode {
+}
+.card .cover.mode {
     background-image: url(/images/mode.png);
     background-size: 100% 125px;
-}.card .cover.isolated {
+}
+.card .cover.isolated {
     background-image: url(/images/isolated.png);
     background-size: 100% 125px;
-}.card .cover.reliable {
+}
+.card .cover.reliable {
     background-image: url(/images/reliable-transit.png);
     background-size: 100% 125px;
 }
@@ -187,19 +190,19 @@
 /* Images for Indicator C */
 
 
-}.card .cover.land {
+.card .cover.land {
     background-image: url(/images/land.png);
     background-size: 100% 125px;
 }
-}.card .cover.pollution {
+.card .cover.pollution {
     background-image: url(/images/pollution.png);
     background-size: 100% 125px;
 }
-}.card .cover.commute {
+.card .cover.commute {
     background-image: url(/images/commute.png);
     background-size: 100% 125px;
 }
-}.card .cover.congestion {
+.card .cover.congestion {
     background-image: url(/images/congestion.png);
     background-size: 100% 125px;
 }
