@@ -1,0 +1,17 @@
+.article-bg {
+  background-image: url(/images/cars-pollution.jpg);
+  background-size: cover;
+  width: 26%;
+  position: fixed;
+  right: 0;
+  top: 0;
+  bottom: 0
+  
+}
+
+.CMTAbanner {
+      background-image: url(/images/CMTABanneronly.svg);
+  background-size: cover;
+    height: 200px;
+    
+}
