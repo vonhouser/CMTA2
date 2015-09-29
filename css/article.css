@@ -12,25 +12,54 @@
 }
 
 
-
 .CMTAbanner {
-  background-image: url(../images/CMTABanneronly.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
+  background-size: cover;
   height: 200px;
-  left: 0;
-  position:fixed;
   top: 0px;
-  width: 100%;
+  padding: 0;
+  background-color: #3F3F3F;
+    
+}
+
+
+
+.banner {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    left: 0;
+    margin-left: 0;
+}
+
+.CMTAbannerleft {
+  top: 0px;
   z-index: 1;
   padding: 0;
-    
+
+  /* Set the fixed height of the footer here */
+  height: 200px;
+  background-color: #EB222A;
+}
+
+.bannertext {
+    color: #FFFFFF;
+    font-family: CMTA;
+    font-size: 3em;
+    margin-left: 50px;
+}
+
+.grade {
+  margin-top: 225px;
+  font-family: CMTA;
+  font-size: 7em;
+  text-align: left;
+  color: #EF1D2C;
 }
 
 .article-content {
 
     margin-top: 225px;
-    margin-left: 55px;
+    margin-left: 50px;
  
 }
 
@@ -71,6 +100,7 @@
     
 }
 
+/*
 @media(max-width:1200px) {
     .article-content {
 
@@ -125,3 +155,4 @@
     display: none;
     }
 }
+*/
