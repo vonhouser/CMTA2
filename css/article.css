@@ -8,7 +8,6 @@
   top: 0;
   bottom: 0;
   background-repeat: no-repeat;
-  
 }
 
 
@@ -16,12 +15,17 @@
   background-size: cover;
   height: 200px;
   top: 0px;
-  padding: 0;
+  padding: 10px;
   background-color: #3F3F3F;
-    
+    line-height: 225px;
+    letter-spacing: .5em;  
 }
 
+.logo {
+    height: 50%;
+    width: 50;
 
+}
 
 .banner {
     position: fixed;
@@ -34,18 +38,44 @@
 .CMTAbannerleft {
   top: 0px;
   z-index: 1;
-  padding: 0;
-
-  /* Set the fixed height of the footer here */
+  padding-top: 60px;
   height: 200px;
-  background-color: #EB222A;
+  background-color: #FFFFFF;
 }
 
-.bannertext {
+
+.CMTAbanner_right {
+  background-image: url(../images/A1.png);
+  background-size:auto;
+  height: 200px;
+  top: 0px;
+  padding: 0;
+  background-color: #FFFFFF;
+  line-height: 225px;
+  border-style: solid;
+  border-left-color: #EB222A;
+}
+/*
+.CMTAbanner_right h2 {
     color: #FFFFFF;
     font-family: CMTA;
-    font-size: 3em;
-    margin-left: 50px;
+    font-size: 1em;
+    line-height: 1.4em;
+    text-align: left;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+*/
+
+.CMTAbanner h1 {
+    color: #FFFFFF;
+    font-family: CMTA;
+    font-size: 2em;
+    line-height:normal;
+    text-align: left;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 .grade {
@@ -60,7 +90,6 @@
 
     margin-top: 225px;
     margin-left: 50px;
- 
 }
 
 .headin {
@@ -97,7 +126,6 @@
     margin-left: 150px;
     font-family: CMTA;
      margin-left: 50px;
-    
 }
 
 /*
