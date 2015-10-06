@@ -9,24 +9,19 @@
   bottom: 0;
   background-repeat: no-repeat;
 }
-
-
 .CMTAbanner {
   background-size: cover;
   height: 200px;
   top: 0px;
   padding: 10px;
-  background-color: #3F3F3F;
+  background-color: #FFFFFF;
     line-height: 225px;
     letter-spacing: .5em;  
 }
-
 .logo {
     height: 50%;
     width: 50;
-
 }
-
 .banner {
     position: fixed;
     z-index: 1;
@@ -34,7 +29,6 @@
     left: 0;
     margin-left: 0;
 }
-
 .CMTAbannerleft {
   top: 0px;
   z-index: 1;
@@ -43,17 +37,20 @@
   background-color: #FFFFFF;
 }
 
-
 .CMTAbanner_right {
-  background-image: url(../images/A1.png);
-  background-size:auto;
-  height: 200px;
   top: 0px;
-  padding: 0;
+  z-index: 1;
+  padding-top: 60px;
+  height: 200px;
   background-color: #FFFFFF;
-  line-height: 225px;
-  border-style: solid;
-  border-left-color: #EB222A;
+
+}
+
+hr {
+height: 1px;
+color: #123455;
+background-color: #EF1D2C;
+border: none;
 }
 /*
 .CMTAbanner_right h2 {
@@ -65,17 +62,25 @@
     display: inline-block;
     vertical-align: middle;
 }
-
 */
 
 .CMTAbanner h1 {
-    color: #FFFFFF;
-    font-family: CMTA;
-    font-size: 2em;
-    line-height:normal;
+    color: #323F47;
+    font-family: CMTABold;
+    letter-spacing: 0.1em;
     text-align: left;
-  display: inline-block;
-  vertical-align: middle;
+    margin-top: 1em;
+}
+
+.CMTAbanner h3 {
+    color: #323F47;
+    font-family: CMTA;
+    font-size: 1.2em;
+    text-align: left;
+    letter-spacing: 0.1em;
+    font-size: 
+
+
 }
 
 .grade {
@@ -89,7 +94,7 @@
 .article-content {
 
     margin-top: 225px;
-    margin-left: 50px;
+    margin-left: 40px;
 }
 
 .headin {
