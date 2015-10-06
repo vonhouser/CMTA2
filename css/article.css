@@ -63,7 +63,6 @@ border: none;
     vertical-align: middle;
 }
 */
-
 .CMTAbanner h1 {
     color: #323F47;
     font-family: CMTABold;
@@ -79,8 +78,6 @@ border: none;
     text-align: left;
     letter-spacing: 0.1em;
     font-size: 
-
-
 }
 
 .grade {
@@ -93,9 +90,16 @@ border: none;
 
 .article-content {
 
-    margin-top: 225px;
-    margin-left: 40px;
+    margin-top: 260px;
+
 }
+.articleicon {
+    float: left;
+    height: 75px;
+    margin-left: 50px;
+    padding-right: 5px;
+}
+
 
 .headin {
     font-family: CMTA;
@@ -128,9 +132,18 @@ border: none;
     position: relative;
     overflow: auto;
     text-align: left;
-    margin-left: 150px;
+    margin-left: 100px;
     font-family: CMTA;
      margin-left: 50px;
+}
+.indfirst {
+    height: auto;
+    width: auto;
+    position: relative;
+    text-align: left;
+    margin-left: 100px;
+    font-family: CMTA;
+    margin-left: 50px;
 }
 
 /*
