@@ -32,7 +32,7 @@
 .CMTAbannerleft {
   top: 0px;
   z-index: 1;
-  padding-top: 60px;
+  padding-top: 50px;
   height: 200px;
   background-color: #FFFFFF;
 }
@@ -40,9 +40,19 @@
 .CMTAbanner_right {
   top: 0px;
   z-index: 1;
-  padding-top: 60px;
+  padding-top: 0px;
   height: 200px;
   background-color: #FFFFFF;
+
+}
+
+.CMTAbanner_right .logo {
+  height: 100px;
+}
+
+
+.CMTAbannerleft .logo {
+  height: 100px;
 
 }
 
