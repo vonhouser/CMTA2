@@ -38,10 +38,8 @@
   height: 100px;
 }
 
-
 .CMTAbannerleft .logo {
-  height: 100px;
-
+  height: 90px;
 }
 
 .banner {
@@ -51,12 +49,13 @@
     width: 100%;
     left: 0;
     margin-left: 0;
+    height: 180px;
 }
 .CMTAbannerleft {
   top: 0px;
   z-index: 1;
-  padding-top: 60px;
-  height: 250px;
+  padding-top: 50px;
+  height: 180px;
   background-color: #FFFFFF;
   margin-left: 200px;
 }
@@ -64,8 +63,8 @@
 .CMTAbanner_right {
   top: 0px;
   z-index: 1;
-  padding-top: 60px;
-  height: 250px;
+  padding-top: 50px;
+  height: px;
   background-color: #FFFFFF;
 
 }
@@ -142,13 +141,13 @@ border: none;
 
 .btn:hover {
     background: #EF1D2C;
+        border: 0 none;
 },
 .btn:focus,
 .btn:active{
     outline: 0 !important;
+        border: 0 none;
 }
-
-
 
 /* entire container, keeps perspective */
 .card-container {
@@ -233,15 +232,13 @@ padding:0;
     margin-top: 20px;
     height:260px;
     display:block;
-    
     padding:0;
 }
 
 .row.paddedC {
-
     height:350px;
     display:block;
-padding:0;
+    padding:0;
 }
 
 
@@ -391,9 +388,16 @@ padding:0;
   margin: 5px 0;
 }
 
-.btn-back {
-    background-color: #323F47;
-        
+.btnA {
+    background-color: #323F47;    
+}
+
+.btnB {
+    background-color: #0E4D6F;
+}
+
+.btnC {
+    background-color: #133E47;
 }
 
 .card .indicator {
