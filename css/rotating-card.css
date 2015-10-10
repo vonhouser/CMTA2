@@ -17,23 +17,22 @@
 }
 */
 
-.CMTAbanner h1 {
-    color: #323F47;
+.banner h1 {
+    color: #FFF;
     font-family: CMTABold;
     letter-spacing: 0.1em;
     text-align: left;
-    margin-top: 1em;
 }
 
-.CMTAbanner h3 {
-    color: #323F47;
+.banner h3 {
+    color: #FFF;
     font-family: CMTA;
     font-size: 1.2em;
     text-align: left;
     letter-spacing: 0.1em;
-    font-size: 
 }
 
+/*
 .CMTAbanner_right .logo {
   height: 100px;
 }
@@ -41,30 +40,28 @@
 .CMTAbannerleft .logo {
   height: 90px;
 }
+*/
 
 .banner {
-    background-color:#FFF;
-   position: fixed;
+    background-image: url(../images/carousel_MARC.jpg);
+    background-size: cover;
     z-index: 1;
     width: 100%;
     left: 0;
-    margin-left: 0;
-    height: 180px;
+    margin: 0;
+    padding: 0;
 }
+
+/*
 .CMTAbannerleft {
   top: 0px;
-  z-index: 1;
   padding-top: 50px;
-  height: 180px;
   background-color: #FFFFFF;
-  margin-left: 200px;
 }
 
 .CMTAbanner_right {
   top: 0px;
-  z-index: 1;
   padding-top: 50px;
-  height: px;
   background-color: #FFFFFF;
 
 }
@@ -75,14 +72,14 @@
 }
 
 .CMTAbanner {
-  background-size: cover;
-  height: 180px;
-  top: 0px;
-  padding: 10px;
-  background-color: #FFFFFF;
-    line-height: 225px;
-    letter-spacing: .5em;  
+    background-size: cover;
+    top: 0px;
+    padding: 10px;
+    background-color: #FFFFFF;
+    letter-spacing: .5em;
+    line-height: normal; 
 }
+*/
 
 hr {
 height: 1px;
@@ -102,7 +99,7 @@ border: none;
 }
 
 .indicator-category {
-    height: 65px;
+    height: 60px;
     margin: 20px 0 10px 0;
 }
 
@@ -221,45 +218,42 @@ border: none;
 /*        Style       */
 
 .row.padded {
-margin-top:200px;
-    height:380px;
+    height:300px;
     display:block;
-padding:0;
+    padding:0;
 }
 
-.paddedB
-{
+.paddedB    {
     margin-top: 20px;
-    height:260px;
+    height:200px;
     display:block;
     padding:0;
 }
 
 .row.paddedC {
-    height:350px;
+    height:200px;
     display:block;
     padding:0;
 }
-
 
 
 .card{
     background: none repeat scroll 0 0 #FFFFFF;
     border-radius: 4px;
     color: #444444;
-    min-height: 260px;
+    min-height: 200px;
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 1);
 }
 .card-container, .front, .back {
 	width: 100%;
-	height: 180px;
+	height: 190px;
 }
-
+/*front cover image*/
 .card .cover{
     height: 125px;
     overflow: hidden;
     
-    margin-bottom: 1em;
+
 }
 
 /*images for Indicator A */
@@ -279,7 +273,7 @@ padding:0;
 
 .backimage {
     width: 100%;
-    height: 200px;
+    height: 180px;
     margin: 0;
 }
 
@@ -373,10 +367,10 @@ padding:0;
     padding: 10px 20px 20px;
 }
 .card .content .main {
-    min-height: 160px;
+    min-height: 100px;
 }
 .card .back .content .main {
-    height: 215px;
+    height: 220px;
 }
 
 .card .back p {
