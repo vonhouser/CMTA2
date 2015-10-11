@@ -84,7 +84,7 @@ border: none;
 
 .grade {
   font-family: CMTAbold;
-  font-size: 4em;
+  font-size: 8em;
   color: #EF1D2C;
   text-align: left;
 }
@@ -214,4 +214,20 @@ h2 {
 .social-links p a {
   font-size: 18pt;
   vertical-align: middle;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 100%
+  }
+
+  p.grade {
+    font-size: 6em;
+  }
+}
+
+@media (min-width: 977px) {
+  p.grade {
+    font-size: 8em;
+  }
 }
