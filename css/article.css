@@ -22,13 +22,12 @@
     margin-top: 50px;
 }
 .banner {
-    position: fixed;
+/*    position: fixed;*/
     width: 100%;
     left: 0;
     margin-left: 0;
 }
 .CMTAbannerleft {
-  top: 0px;
   padding-top: 50px;
   background-color: #FFFFFF;
 }
