@@ -205,3 +205,13 @@ h2 {
   }
 }
 */
+
+.social-links p {
+  font-size: 10pt;
+  vertical-align: middle;
+}
+
+.social-links p a {
+  font-size: 18pt;
+  vertical-align: middle;
+}
