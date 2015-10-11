@@ -249,21 +249,7 @@ padding:0;
 }
 
 /*images for Indicator A */
-
-.
-
-.wrapper.indA .cover img{
-    border-bottom: 35px solid #323F47;
-}
-
-.wrapper.indB .cover img{
-    border-bottom: 35px solid #0E4D6F;
-}
-
-.wrapper.indC .cover img{
-    border-bottom: 35px solid #133E47;
-}
-
+/* disabled until new bg images are made
 .card .cover.disposable-income {
     background-image: url(../images/dis-inc-bg.png);
 }
@@ -279,10 +265,10 @@ padding:0;
 .card .cover.road-repair {
     background-image: url(../images/stat-rep-bg.png);
 }
-
+*/
 /* Images for Indicator B*/
 
-
+/* disabled until new bg images are made
 .card .cover.walk {
     background-image: url(../images/walk.png);
 }
@@ -298,7 +284,7 @@ padding:0;
 
 /* Images for Indicator C */
 
-
+/* disabled until new bg images are made
 .card .cover.land {
     background-image: url(../images/land.png);
 }
@@ -311,7 +297,7 @@ padding:0;
 .card .cover.congestion {
     background-image: url(../images/congestion.png);
 }
-
+ disabled until new bg images are made */
 /*
 
 .card .user{
