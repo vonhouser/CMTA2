@@ -48,6 +48,10 @@
 
 }
 
+img.check {
+  max-height: 100px;
+}
+
 hr {
 height: 1px;
 color: #123455;
