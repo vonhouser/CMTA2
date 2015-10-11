@@ -16,13 +16,20 @@
     margin-top: 1em;
 }
 
+h2 {
+  font-family: CMTA;
+  color: #FFFFFF;
+  text-align: left;
+  margin-left: 30px;
+}
+
 .CMTAbanner p {
     color: #323F47;
     font-family: CMTA;
     font-size: 1.2em;
     text-align: left;
     letter-spacing: 0.1em;
-    font-size: 
+    font-size: 12pt;
 }
 
 .CMTAbanner_right .logo {
@@ -114,6 +121,7 @@ border: none;
 
 .indicator-category .wrapper {
     padding: 10px 0 0 0;
+
 }
 
 .indicator-category h1 {
@@ -144,6 +152,7 @@ border: none;
    -moz-perspective: 800px;
      -o-perspective: 800px;
         perspective: 800px;
+  margin: 5px;
 }
 
 /* flip the pane when hovered */
@@ -175,6 +184,7 @@ border: none;
      -o-transform-style: preserve-3d;
         transform-style: preserve-3d;
 	position: relative;
+   font-family: CMTA;
 }
 
 /* hide back of pane during swap */
@@ -245,6 +255,10 @@ padding:0;
     margin-bottom: 1em;
   background-size: 100% 100px;
   background-repeat: no-repeat;
+}
+
+.cover img {
+  margin: 5px;
 }
 
 /*images for Indicator A */
@@ -348,22 +362,16 @@ padding:0;
 }
 
 .card .indicator {
-    font-size: 20px;
-    margin: 0 0 10px 0;
+    margin: 10px;
     text-align: center;
     text-transform: capitalize;
+  font-size: 12pt;
 }
 .card h5{
     margin: 5px 0;
     font-weight: 400;
     line-height: 20px;
 }
-.card .grade-title{
-    color: #Ef1D2C;
-    text-align: center;
-    font-size: 1em;
-}
-
 .card .grade {
     color: #Ef1D2C;
     text-align: center;
@@ -372,6 +380,7 @@ padding:0;
     font-weight: 700;
     line-height: .6em;
     font-size: 2em;
+  clear: left;
 }
 
 .card .footer {
