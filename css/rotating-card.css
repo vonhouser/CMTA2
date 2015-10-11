@@ -144,7 +144,6 @@ border: none;
    -moz-perspective: 800px;
      -o-perspective: 800px;
         perspective: 800px;
-        margin-bottom: 30px;
 }
 
 /* flip the pane when hovered */
@@ -318,12 +317,13 @@ padding:0;
     background-color: rgba(0, 0, 0, 0);
     box-shadow: none;
     padding: 10px 20px 20px;
+  padding: 0px;
 }
 .card .content .main {
-    min-height: 118px;
+    min-height: 100px;
 }
 .card .back .content .main {
-    height: 118px;
+    height: 100px;
 }
 
 .card .back p {
@@ -393,10 +393,6 @@ padding:0;
 .card .header {
     padding: 5px 20px;
     height: 40px;
-}
-
-.card .back .content {
-    padding: 3px 20px 20px;
 }
 
 .card .back .footer {

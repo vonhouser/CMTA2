@@ -125,12 +125,11 @@ border: none;
 }
 
  .content {
-     height: auto;
-     width: auto;
+     height: 100%;
+     width: 100%;
      position: relative;
-     overflow: auto;
+     overflow: hidden;
      text-align: left;
-      margin-left: 45px;
  }
 
 .contentind {
