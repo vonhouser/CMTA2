@@ -8,15 +8,6 @@
     src: url(../fonts/TradeGothicLTStdBold@0.otf );
 }
 
-
-/*
-.sidebar {
-    border-left-color: #0088dd;
-    width: 10px;
-
-}
-*/
-
 .CMTAbanner h1 {
     color: #323F47;
     font-family: CMTABold;
@@ -44,7 +35,6 @@
 
 .banner {
     background-color:#FFF;
-   position: fixed;
     z-index: 1;
     width: 100%;
     left: 0;
@@ -101,24 +91,25 @@ border: none;
 .indicator-category {
     height: 65px;
     margin: 20px 0 10px 0;
+  margin: 0px;
 }
 
 .indicator-category.indA {
-  /*background-color: #323F47;*/
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #323F47), color-stop(0.6, #222C32));
   background: -webkit-linear-gradient(top, #323F47 0%, #222C32 60%);
+  background: -moz-linear-gradient(top, #323F47 0%, #222C32 60%);
 }
 
-.indicator-category.indB { 
-  /*background-color: #0E4D6F;*/
+.indicator-category.indB {
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #0E4D6F), color-stop(0.6, #1B3756));
   background: -webkit-linear-gradient(top, #0E4D6F 0%, #1B3756 60%);
+  background: -moz-linear-gradient(top,  #0E4D6F 0%, #1B3756 60%);
 }
 
-.indicator-category.indC { 
-  /*background-color: #133E47;*/
+.indicator-category.indC {
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #133E47), color-stop(0.6, #0E3138));
   background: -webkit-linear-gradient(top, #133E47 0%, #0E3138 60%);
+  background: -moz-linear-gradient(top, #133E47 0%, #0E3138 60%);
 }
 
 .indicator-category .wrapper {
@@ -147,6 +138,7 @@ border: none;
 }
 
 /* entire container, keeps perspective */
+
 .card-container {
 	  -webkit-perspective: 800px;
    -moz-perspective: 800px;
@@ -154,7 +146,9 @@ border: none;
         perspective: 800px;
         margin-bottom: 30px;
 }
+
 /* flip the pane when hovered */
+
 .card-container:not(.manual-flip):hover .card,
 .card-container.hover.manual-flip .card{
 	-webkit-transform: rotateY( 180deg );
@@ -163,7 +157,6 @@ border: none;
     transform: rotateY( 180deg );
 }
 
-
 .card-container.static:hover .card, 
 .card-container.static.hover .card {
 	-webkit-transform: none;
@@ -171,6 +164,7 @@ border: none;
  -o-transform: none;
     transform: none;
 }
+
 /* flip speed goes here */
  .card {
 	 -webkit-transition: -webkit-transform .5s;
@@ -209,7 +203,6 @@ border: none;
         transform: rotateY( 180deg );
         z-index: 3;
 }
-
 .back .btn-simple{
     position: absolute;
     left: 0;
@@ -218,8 +211,6 @@ border: none;
 /*        Style       */
 
 .row.padded {
-/*margin-top:200px;
-    height:380px;*/
     display:block;
 padding:0;
 }
@@ -227,114 +218,39 @@ padding:0;
 .paddedB
 {
     margin-top: 20px;
-/*    height:260px;*/
     display:block;
     padding:0;
 }
 
 .row.paddedC {
-/*    height:350px;*/
     display:block;
     padding:0;
 }
-
 
 
 .card{
     background: none repeat scroll 0 0 #FFFFFF;
     border-radius: 4px;
     color: #444444;
-    min-height: 260px;
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 1);
+  height: 100px;
 }
 .card-container, .front, .back {
 	width: 100%;
-/*	height: 180px;*/
+	height: 100px;
 }
 
 .card .cover{
-/*    height: 125px;*/
+    height: 100px;
     overflow: hidden;
-    height: 118px;
     margin-bottom: 1em;
+  background-size: 100% 100px;
+  background-repeat: no-repeat;
 }
 
 /*images for Indicator A */
 
-.card .cover.disposable-income {
-    background-image: url(../images/dis-inc-bg.png);
-    background-size: 100% 125px;
-}
-
-/*
-.walkback {
-    background-image: url(/images/CardBacks/Walkability_White.png);
-    background-size: 100%;
-}
-
-*/
-
-.backimage {
-    width: 100%;
-    height: 200px;
-    margin: 0;
-}
-
-.card .cover.job-car {
-    background-image: url(../images/job-car-bg.png);
-    background-size: 100% 125px;
-}
-
-.card .cover.job-transit {
-    background-image: url(../images/job-train-bg.png);
-    background-size: 100% 125px;
-}
-
-.card .cover.road-repair {
-    background-image: url(../images/stat-rep-bg.png);
-    background-size: 100% 125px;
-}
-
-/* Images for Indicator B*/
-
-
-.card .cover.walk {
-    background-image: url(../images/walk.png);
-    background-size: 100% 125px;
-}
-.card .cover.mode {
-    background-image: url(../images/mode.png);
-    background-size: 100% 125px;
-}
-.card .cover.isolated {
-    background-image: url(../images/isolated.png);
-    background-size: 100% 125px;
-}
-.card .cover.reliable {
-    background-image: url(../images/reliable-transit.png);
-    background-size: 100% 125px;
-  background-color: red;
-}
-
-/* Images for Indicator C */
-
-
-.card .cover.land {
-    background-image: url(../images/land.png);
-    background-size: 100% 125px;
-}
-.card .cover.pollution {
-    background-image: url(../images/pollution.png);
-    background-size: 100% 125px;
-}
-.card .cover.commute {
-    background-image: url(../images/commute.png);
-    background-size: 100% 125px;
-}
-.card .cover.congestion {
-    background-image: url(../images/congestion.png);
-    background-size: 100% 125px;
-}
+.
 
 .wrapper.indA .cover img{
     border-bottom: 35px solid #323F47;
@@ -348,6 +264,53 @@ padding:0;
     border-bottom: 35px solid #133E47;
 }
 
+.card .cover.disposable-income {
+    background-image: url(../images/dis-inc-bg.png);
+}
+
+.card .cover.job-car {
+    background-image: url(../images/job-car-bg.png);
+}
+
+.card .cover.job-transit {
+    background-image: url(../images/job-train-bg.png);
+}
+
+.card .cover.road-repair {
+    background-image: url(../images/stat-rep-bg.png);
+}
+
+/* Images for Indicator B*/
+
+
+.card .cover.walk {
+    background-image: url(../images/walk.png);
+}
+.card .cover.mode {
+    background-image: url(../images/mode.png);
+}
+.card .cover.isolated {
+    background-image: url(../images/isolated.png);
+}
+.card .cover.reliable {
+    background-image: url(../images/reliable-transit.png);
+}
+
+/* Images for Indicator C */
+
+
+.card .cover.land {
+    background-image: url(../images/land.png);
+}
+.card .cover.pollution {
+    background-image: url(../images/pollution.png);
+}
+.card .cover.commute {
+    background-image: url(../images/commute.png);
+}
+.card .cover.congestion {
+    background-image: url(../images/congestion.png);
+}
 
 /*
 
@@ -371,10 +334,10 @@ padding:0;
     padding: 10px 20px 20px;
 }
 .card .content .main {
-    min-height: 160px;
+    min-height: 118px;
 }
 .card .back .content .main {
-    height: 215px;
+    height: 118px;
 }
 
 .card .back p {
@@ -400,7 +363,6 @@ padding:0;
 
 .card .indicator {
     font-size: 20px;
-    line-height: 20px;
     margin: 0 0 10px 0;
     text-align: center;
     text-transform: capitalize;
@@ -448,7 +410,6 @@ padding:0;
 }
 
 .card .back .content {
-    height: 345px;
     padding: 3px 20px 20px;
 }
 
