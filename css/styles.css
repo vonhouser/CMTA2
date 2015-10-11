@@ -22,34 +22,33 @@ body {
 	letter-spacing:.03em;
     line-height: 1.7;
 	
-	}
+}
 body strong {
     font-weight: 400;
     color: #EC1C24;
     font-family: "oswald","helvetica", sans-serf;
 }
-
 img {
 	border: 0;
-	}
+}
 a {
 	text-decoration: none;
 	color:#000;
-	}
+}
 a:hover {
 	text-decoration: none;
 	color:#db0000;
-	}
+}
 h1, h2, h3, h4, h5, h6 {
 	margin: 0;
 	padding: 0;
-	}	
+}
 .clearfix {
 	clear: both;
-	}
+}
 .floatleft {
 	float: left;
-	}
+}
 p {
 	margin:0 0 15px 0;
 }
