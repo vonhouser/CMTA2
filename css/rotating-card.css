@@ -219,8 +219,8 @@ border: none;
 /*        Style       */
 
 .row.padded {
-margin-top:200px;
-    height:380px;
+/*margin-top:200px;
+    height:380px;*/
     display:block;
 padding:0;
 }
@@ -228,13 +228,13 @@ padding:0;
 .paddedB
 {
     margin-top: 20px;
-    height:260px;
+/*    height:260px;*/
     display:block;
     padding:0;
 }
 
 .row.paddedC {
-    height:350px;
+/*    height:350px;*/
     display:block;
     padding:0;
 }
@@ -250,11 +250,11 @@ padding:0;
 }
 .card-container, .front, .back {
 	width: 100%;
-	height: 180px;
+/*	height: 180px;*/
 }
 
 .card .cover{
-    height: 125px;
+/*    height: 125px;*/
     overflow: hidden;
     
     margin-bottom: 1em;
