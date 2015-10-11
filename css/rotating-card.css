@@ -25,7 +25,7 @@
     margin-top: 1em;
 }
 
-.CMTAbanner h3 {
+.CMTAbanner p {
     color: #323F47;
     font-family: CMTA;
     font-size: 1.2em;
@@ -76,11 +76,9 @@
 
 .CMTAbanner {
   background-size: cover;
-  height: 180px;
   top: 0px;
   padding: 10px;
   background-color: #FFFFFF;
-    line-height: 225px;
     letter-spacing: .5em;  
 }
 
