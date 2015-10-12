@@ -8,6 +8,7 @@
     src: url(../fonts/TradeGothicLTStdBold@0.otf );
 }
 
+<<<<<<< HEAD
 
 /*
 .sidebar {
@@ -19,17 +20,37 @@
 
 .banner h1 {
     color: #FFF;
+=======
+.CMTAbanner h1 {
+    color: #323F47;
+>>>>>>> origin/master
     font-family: CMTABold;
     letter-spacing: 0.1em;
     text-align: left;
 }
 
+<<<<<<< HEAD
 .banner h3 {
     color: #FFF;
+=======
+h2 {
+  font-family: CMTA;
+  color: #FFFFFF;
+  text-align: left;
+  margin-left: 30px;
+}
+
+.CMTAbanner p {
+    color: #323F47;
+>>>>>>> origin/master
     font-family: CMTA;
     font-size: 1.2em;
     text-align: left;
     letter-spacing: 0.1em;
+<<<<<<< HEAD
+=======
+    font-size: 12pt;
+>>>>>>> origin/master
 }
 
 /*
@@ -43,8 +64,12 @@
 */
 
 .banner {
+<<<<<<< HEAD
     background-image: url(../images/carousel_MARC.jpg);
     background-size: cover;
+=======
+    background-color:#FFF;
+>>>>>>> origin/master
     z-index: 1;
     width: 100%;
     left: 0;
@@ -54,7 +79,11 @@
 
 /*
 .CMTAbannerleft {
+<<<<<<< HEAD
   top: 0px;
+=======
+  z-index: 1;
+>>>>>>> origin/master
   padding-top: 50px;
   background-color: #FFFFFF;
 }
@@ -72,12 +101,20 @@
 }
 
 .CMTAbanner {
+<<<<<<< HEAD
     background-size: cover;
     top: 0px;
     padding: 10px;
     background-color: #FFFFFF;
     letter-spacing: .5em;
     line-height: normal; 
+=======
+  background-size: cover;
+  top: 0px;
+  padding: 10px;
+  background-color: #FFFFFF;
+    letter-spacing: .5em;
+>>>>>>> origin/master
 }
 */
 
@@ -101,28 +138,30 @@ border: none;
 .indicator-category {
     height: 60px;
     margin: 20px 0 10px 0;
+  margin: 0px;
 }
 
 .indicator-category.indA {
-  /*background-color: #323F47;*/
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #323F47), color-stop(0.6, #222C32));
   background: -webkit-linear-gradient(top, #323F47 0%, #222C32 60%);
+  background: -moz-linear-gradient(top, #323F47 0%, #222C32 60%);
 }
 
-.indicator-category.indB { 
-  /*background-color: #0E4D6F;*/
+.indicator-category.indB {
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #0E4D6F), color-stop(0.6, #1B3756));
   background: -webkit-linear-gradient(top, #0E4D6F 0%, #1B3756 60%);
+  background: -moz-linear-gradient(top,  #0E4D6F 0%, #1B3756 60%);
 }
 
-.indicator-category.indC { 
-  /*background-color: #133E47;*/
+.indicator-category.indC {
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #133E47), color-stop(0.6, #0E3138));
   background: -webkit-linear-gradient(top, #133E47 0%, #0E3138 60%);
+  background: -moz-linear-gradient(top, #133E47 0%, #0E3138 60%);
 }
 
 .indicator-category .wrapper {
     padding: 10px 0 0 0;
+
 }
 
 .indicator-category h1 {
@@ -147,14 +186,17 @@ border: none;
 }
 
 /* entire container, keeps perspective */
+
 .card-container {
 	  -webkit-perspective: 800px;
    -moz-perspective: 800px;
      -o-perspective: 800px;
         perspective: 800px;
-        margin-bottom: 30px;
+  margin: 5px;
 }
+
 /* flip the pane when hovered */
+
 .card-container:not(.manual-flip):hover .card,
 .card-container.hover.manual-flip .card{
 	-webkit-transform: rotateY( 180deg );
@@ -163,7 +205,6 @@ border: none;
     transform: rotateY( 180deg );
 }
 
-
 .card-container.static:hover .card, 
 .card-container.static.hover .card {
 	-webkit-transform: none;
@@ -171,6 +212,7 @@ border: none;
  -o-transform: none;
     transform: none;
 }
+
 /* flip speed goes here */
  .card {
 	 -webkit-transition: -webkit-transform .5s;
@@ -182,6 +224,7 @@ border: none;
      -o-transform-style: preserve-3d;
         transform-style: preserve-3d;
 	position: relative;
+   font-family: CMTA;
 }
 
 /* hide back of pane during swap */
@@ -209,7 +252,6 @@ border: none;
         transform: rotateY( 180deg );
         z-index: 3;
 }
-
 .back .btn-simple{
     position: absolute;
     left: 0;
@@ -218,20 +260,29 @@ border: none;
 /*        Style       */
 
 .row.padded {
+<<<<<<< HEAD
     height:300px;
+=======
+>>>>>>> origin/master
     display:block;
     padding:0;
 }
 
 .paddedB    {
     margin-top: 20px;
+<<<<<<< HEAD
     height:200px;
+=======
+>>>>>>> origin/master
     display:block;
     padding:0;
 }
 
 .row.paddedC {
+<<<<<<< HEAD
     height:200px;
+=======
+>>>>>>> origin/master
     display:block;
     padding:0;
 }
@@ -241,110 +292,99 @@ border: none;
     background: none repeat scroll 0 0 #FFFFFF;
     border-radius: 4px;
     color: #444444;
+<<<<<<< HEAD
     min-height: 200px;
+=======
+>>>>>>> origin/master
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 1);
+  height: 100px;
 }
 .card-container, .front, .back {
 	width: 100%;
+<<<<<<< HEAD
 	height: 190px;
+=======
+	height: 100px;
+>>>>>>> origin/master
 }
 /*front cover image*/
 .card .cover{
-    height: 125px;
+    height: 100px;
     overflow: hidden;
+<<<<<<< HEAD
     
 
+=======
+    margin-bottom: 1em;
+    background-size: 100% 100px;
+    background-repeat: no-repeat;
+>>>>>>> origin/master
 }
 
-/*images for Indicator A */
+.cover img {
 
-.card .cover.disposable-income {
-    background-image: url(../images/dis-inc-bg.png);
-    background-size: 100% 125px;
+  margin: 5px;
 }
 
-/*
-.walkback {
-    background-image: url(/images/CardBacks/Walkability_White.png);
-    background-size: 100%;
-}
-
+<<<<<<< HEAD
 */
 
 .backimage {
     width: 100%;
     height: 180px;
     margin: 0;
+=======
+/*images for Indicator A */
+/* disabled until new bg images are made
+.card .cover.disposable-income {
+    background-image: url(../images/dis-inc-bg.png);
+>>>>>>> origin/master
 }
 
 .card .cover.job-car {
     background-image: url(../images/job-car-bg.png);
-    background-size: 100% 125px;
 }
 
 .card .cover.job-transit {
     background-image: url(../images/job-train-bg.png);
-    background-size: 100% 125px;
 }
 
 .card .cover.road-repair {
     background-image: url(../images/stat-rep-bg.png);
-    background-size: 100% 125px;
 }
-
+*/
 /* Images for Indicator B*/
 
-
+/* disabled until new bg images are made
 .card .cover.walk {
     background-image: url(../images/walk.png);
-    background-size: 100% 125px;
 }
 .card .cover.mode {
     background-image: url(../images/mode.png);
-    background-size: 100% 125px;
 }
 .card .cover.isolated {
     background-image: url(../images/isolated.png);
-    background-size: 100% 125px;
 }
 .card .cover.reliable {
     background-image: url(../images/reliable-transit.png);
-    background-size: 100% 125px;
 }
 
 /* Images for Indicator C */
 
-
+/* disabled until new bg images are made
 .card .cover.land {
     background-image: url(../images/land.png);
-    background-size: 100% 125px;
 }
 .card .cover.pollution {
     background-image: url(../images/pollution.png);
-    background-size: 100% 125px;
 }
 .card .cover.commute {
     background-image: url(../images/commute.png);
-    background-size: 100% 125px;
 }
 .card .cover.congestion {
     background-image: url(../images/congestion.png);
-    background-size: 100% 125px;
 }
-
-.wrapper.indA .cover img{
-    border-bottom: 35px solid #323F47;
-}
-
-.wrapper.indB .cover img{
-    border-bottom: 35px solid #0E4D6F;
-}
-
-.wrapper.indC .cover img{
-    border-bottom: 35px solid #133E47;
-}
-
-
+ disabled until new bg images are made */
 /*
 
 .card .user{
@@ -365,12 +405,17 @@ border: none;
     background-color: rgba(0, 0, 0, 0);
     box-shadow: none;
     padding: 10px 20px 20px;
+  padding: 0px;
 }
 .card .content .main {
     min-height: 100px;
 }
 .card .back .content .main {
+<<<<<<< HEAD
     height: 220px;
+=======
+    height: 100px;
+>>>>>>> origin/master
 }
 
 .card .back p {
@@ -395,23 +440,16 @@ border: none;
 }
 
 .card .indicator {
-    font-size: 20px;
-    line-height: 20px;
-    margin: 0 0 10px 0;
+    margin: 10px;
     text-align: center;
     text-transform: capitalize;
+  font-size: 12pt;
 }
 .card h5{
     margin: 5px 0;
     font-weight: 400;
     line-height: 20px;
 }
-.card .grade-title{
-    color: #Ef1D2C;
-    text-align: center;
-    font-size: 1em;
-}
-
 .card .grade {
     color: #Ef1D2C;
     text-align: center;
@@ -420,6 +458,7 @@ border: none;
     font-weight: 700;
     line-height: .6em;
     font-size: 2em;
+  clear: left;
 }
 
 .card .footer {
@@ -441,11 +480,6 @@ border: none;
 .card .header {
     padding: 5px 20px;
     height: 40px;
-}
-
-.card .back .content {
-    height: 345px;
-    padding: 3px 20px 20px;
 }
 
 .card .back .footer {
@@ -566,3 +600,9 @@ border: none;
         visibility: visible;
     }
 }
+
+img.backimage {
+  height: 100px;
+  width: 100%;
+}
+/**/
