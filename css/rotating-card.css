@@ -253,11 +253,12 @@ padding:0;
     height: 100px;
     overflow: hidden;
     margin-bottom: 1em;
-  background-size: 100% 100px;
-  background-repeat: no-repeat;
+    background-size: 100% 100px;
+    background-repeat: no-repeat;
 }
 
 .cover img {
+
   margin: 5px;
 }
 
