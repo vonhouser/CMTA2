@@ -233,3 +233,8 @@ border: none;
     font-size: 8em;
   }
 }
+
+header, main {
+  width: 950px;
+  margin: 0px auto;
+}
