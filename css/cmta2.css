@@ -10,21 +10,6 @@
 }
 
 
-/* Flipcard sizing */
-.flipcard .front .row img.icon {
-  height: 50px;
-  width: 50px;
-  margin: 0px;
-  padding: 0px;
-}
-
-.flipcard .front p.grade {
-  margin: 0px;
-  padding: 0px;
-  width: 100%;
-}
-
-
 /* Flipcard mechanisms
 from:
 http://davidwalsh.name/css-flip
@@ -54,7 +39,6 @@ with added browser compatibility.
   -o-transform-style: preserve-3d;
   transform-style: preserve-3d;
   font-family: CMTA;
-  position: relative;
 }
 
 .front, .back {
@@ -64,19 +48,25 @@ with added browser compatibility.
   backface-visibility: hidden;
 }
 
-.back {
-  position: relative;
-  top: -100px;
+.back div {
 }
 
 .front {
   z-index: 2;
 /* for firefox 31 */
+  -webkit-transform: rotateY(0deg);
+  -moz-transform: rotateY(0deg);
+  -o-transform: rotateY(0deg);
   transform: rotateY(0deg);
+  height: 100px;
 }
 
 .back {
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
   transform: rotateY(180deg);
+  height: 100px;
 }
 
 
@@ -87,7 +77,6 @@ hr {
   background-color: #EF1D2C;
   border: none;
 }
-
 
 
 /* Header content */
@@ -126,12 +115,6 @@ main {
   margin: 0px auto;
 }
 
-.indicator-category {
-  height: 60px;
-  margin: 20px 0 10px 0;
-  margin: 0px;
-}
-
 .indGrp {
   vertical-align: middle;
 }
@@ -141,6 +124,8 @@ main {
   padding: 10px;
   font-size: 18pt;
   font-family: CMTABold;
+  color: #FFFFFF;
+  text-align: left;
 }
 
 #indA h2 {
@@ -161,19 +146,25 @@ main {
   background: -moz-linear-gradient(top, #133E47 0%, #0E3138 60%);
 }
 
-h2 {
-  font-family: CMTA;
-  color: #FFFFFF;
-  text-align: left;
-  margin-left: 30px;
-}
-
-.flipcard h3 {
-  font-size: 10pt;
-}
-
 .flipcard {
   height: 100px;
+  max-width: 260px;
+  text-align: left;
+  margin: 0px auto;
+}
+
+.flipcard .front .row img.icon {
+  height: 50px;
+  width: 50px;
+  margin: 0px 0px 0px 20px;
+  padding: 0px;
+}
+
+.flipcard .front p.grade {
+  clear: left;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
 }
 
 .flipcard p.grade {
@@ -186,16 +177,20 @@ h2 {
   clear: left;
 }
 
-/*
 .flipcard h3 {
-  border-bottom: 1px solid #EEEEEE;
-  color: #000000;
-  font-size: 22px;
-  font-weight: 700;
-  padding-bottom: 10px;
-  text-align: center;
+  font-size: 10pt;
+  margin: 10px;
+  padding: 0px;
 }
 
-*/
+.flipcard .front {
+  border: 2px solid #DDDDDD;
+}
+
+.flipcard .back {
+  position: relative;
+  top: -100px;
+}
+
 
 /* Footer content */
