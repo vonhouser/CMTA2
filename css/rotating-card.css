@@ -9,6 +9,7 @@
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 /*
 .sidebar {
@@ -21,6 +22,8 @@
 .banner h1 {
     color: #FFF;
 =======
+=======
+>>>>>>> origin/master
 .CMTAbanner h1 {
     color: #323F47;
 >>>>>>> origin/master
@@ -30,9 +33,12 @@
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 .banner h3 {
     color: #FFF;
 =======
+=======
+>>>>>>> origin/master
 h2 {
   font-family: CMTA;
   color: #FFFFFF;
@@ -48,6 +54,10 @@ h2 {
     text-align: left;
     letter-spacing: 0.1em;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    font-size: 12pt;
+>>>>>>> origin/master
 =======
     font-size: 12pt;
 >>>>>>> origin/master
@@ -69,6 +79,9 @@ h2 {
     background-size: cover;
 =======
     background-color:#FFF;
+<<<<<<< HEAD
+>>>>>>> origin/master
+=======
 >>>>>>> origin/master
     z-index: 1;
     width: 100%;
@@ -80,8 +93,11 @@ h2 {
 /*
 .CMTAbannerleft {
 <<<<<<< HEAD
+<<<<<<< HEAD
   top: 0px;
 =======
+=======
+>>>>>>> origin/master
   z-index: 1;
 >>>>>>> origin/master
   padding-top: 50px;
@@ -113,6 +129,10 @@ h2 {
   top: 0px;
   padding: 10px;
   background-color: #FFFFFF;
+<<<<<<< HEAD
+    letter-spacing: .5em;
+>>>>>>> origin/master
+=======
     letter-spacing: .5em;
 >>>>>>> origin/master
 }
@@ -261,7 +281,10 @@ border: none;
 
 .row.padded {
 <<<<<<< HEAD
+<<<<<<< HEAD
     height:300px;
+=======
+>>>>>>> origin/master
 =======
 >>>>>>> origin/master
     display:block;
@@ -271,7 +294,10 @@ border: none;
 .paddedB    {
     margin-top: 20px;
 <<<<<<< HEAD
+<<<<<<< HEAD
     height:200px;
+=======
+>>>>>>> origin/master
 =======
 >>>>>>> origin/master
     display:block;
@@ -280,7 +306,10 @@ border: none;
 
 .row.paddedC {
 <<<<<<< HEAD
+<<<<<<< HEAD
     height:200px;
+=======
+>>>>>>> origin/master
 =======
 >>>>>>> origin/master
     display:block;
@@ -293,7 +322,10 @@ border: none;
     border-radius: 4px;
     color: #444444;
 <<<<<<< HEAD
+<<<<<<< HEAD
     min-height: 200px;
+=======
+>>>>>>> origin/master
 =======
 >>>>>>> origin/master
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 1);
@@ -302,7 +334,11 @@ border: none;
 .card-container, .front, .back {
 	width: 100%;
 <<<<<<< HEAD
+<<<<<<< HEAD
 	height: 190px;
+=======
+	height: 100px;
+>>>>>>> origin/master
 =======
 	height: 100px;
 >>>>>>> origin/master
@@ -312,8 +348,14 @@ border: none;
     height: 100px;
     overflow: hidden;
 <<<<<<< HEAD
+<<<<<<< HEAD
     
 
+=======
+    margin-bottom: 1em;
+    background-size: 100% 100px;
+    background-repeat: no-repeat;
+>>>>>>> origin/master
 =======
     margin-bottom: 1em;
     background-size: 100% 100px;
@@ -327,6 +369,7 @@ border: none;
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 */
 
 .backimage {
@@ -334,10 +377,15 @@ border: none;
     height: 180px;
     margin: 0;
 =======
+=======
+>>>>>>> origin/master
 /*images for Indicator A */
 /* disabled until new bg images are made
 .card .cover.disposable-income {
     background-image: url(../images/dis-inc-bg.png);
+<<<<<<< HEAD
+>>>>>>> origin/master
+=======
 >>>>>>> origin/master
 }
 
@@ -412,7 +460,11 @@ border: none;
 }
 .card .back .content .main {
 <<<<<<< HEAD
+<<<<<<< HEAD
     height: 220px;
+=======
+    height: 100px;
+>>>>>>> origin/master
 =======
     height: 100px;
 >>>>>>> origin/master
