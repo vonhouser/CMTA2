@@ -17,6 +17,11 @@
   backface-visibility: hidden;
 }
 
+.back {
+  position: relative;
+  top: -100px;
+}
+
 .front {
   z-index: 2;
 /* for firefox 31 */
