@@ -8,37 +8,14 @@
     src: url(../fonts/TradeGothicLTStdBold@0.otf );
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-/*
-.sidebar {
-    border-left-color: #0088dd;
-    width: 10px;
-
-}
-*/
-
 .banner h1 {
     color: #FFF;
-=======
-=======
->>>>>>> origin/master
-.CMTAbanner h1 {
     color: #323F47;
->>>>>>> origin/master
     font-family: CMTABold;
     letter-spacing: 0.1em;
     text-align: left;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-.banner h3 {
-    color: #FFF;
-=======
-=======
->>>>>>> origin/master
 h2 {
   font-family: CMTA;
   color: #FFFFFF;
@@ -48,95 +25,23 @@ h2 {
 
 .CMTAbanner p {
     color: #323F47;
->>>>>>> origin/master
     font-family: CMTA;
     font-size: 1.2em;
     text-align: left;
     letter-spacing: 0.1em;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
     font-size: 12pt;
->>>>>>> origin/master
-=======
-    font-size: 12pt;
->>>>>>> origin/master
 }
-
-/*
-.CMTAbanner_right .logo {
-  height: 100px;
-}
-
-.CMTAbannerleft .logo {
-  height: 90px;
-}
-*/
 
 .banner {
-<<<<<<< HEAD
     background-image: url(../images/carousel_MARC.jpg);
     background-size: cover;
-=======
     background-color:#FFF;
-<<<<<<< HEAD
->>>>>>> origin/master
-=======
->>>>>>> origin/master
     z-index: 1;
     width: 100%;
     left: 0;
     margin: 0;
     padding: 0;
 }
-
-/*
-.CMTAbannerleft {
-<<<<<<< HEAD
-<<<<<<< HEAD
-  top: 0px;
-=======
-=======
->>>>>>> origin/master
-  z-index: 1;
->>>>>>> origin/master
-  padding-top: 50px;
-  background-color: #FFFFFF;
-}
-
-.CMTAbanner_right {
-  top: 0px;
-  padding-top: 50px;
-  background-color: #FFFFFF;
-
-}
-
-.logo {
-    height: 50%;
-    width: 50;
-}
-
-.CMTAbanner {
-<<<<<<< HEAD
-    background-size: cover;
-    top: 0px;
-    padding: 10px;
-    background-color: #FFFFFF;
-    letter-spacing: .5em;
-    line-height: normal;
-=======
-  background-size: cover;
-  top: 0px;
-  padding: 10px;
-  background-color: #FFFFFF;
-<<<<<<< HEAD
-    letter-spacing: .5em;
->>>>>>> origin/master
-=======
-    letter-spacing: .5em;
->>>>>>> origin/master
-}
-*/
 
 hr {
 height: 1px;
@@ -280,38 +185,16 @@ border: none;
 /*        Style       */
 
 .row.padded {
-<<<<<<< HEAD
-<<<<<<< HEAD
-    height:300px;
-=======
->>>>>>> origin/master
-=======
->>>>>>> origin/master
     display:block;
     padding:0;
 }
 
 .paddedB    {
-    margin-top: 20px;
-<<<<<<< HEAD
-<<<<<<< HEAD
-    height:200px;
-=======
->>>>>>> origin/master
-=======
->>>>>>> origin/master
     display:block;
     padding:0;
 }
 
 .row.paddedC {
-<<<<<<< HEAD
-<<<<<<< HEAD
-    height:200px;
-=======
->>>>>>> origin/master
-=======
->>>>>>> origin/master
     display:block;
     padding:0;
 }
@@ -321,46 +204,20 @@ border: none;
     background: none repeat scroll 0 0 #FFFFFF;
     border-radius: 4px;
     color: #444444;
-<<<<<<< HEAD
-<<<<<<< HEAD
-    min-height: 200px;
-=======
->>>>>>> origin/master
-=======
->>>>>>> origin/master
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 1);
   height: 100px;
 }
 .card-container, .front, .back {
 	width: 100%;
-<<<<<<< HEAD
-<<<<<<< HEAD
-	height: 190px;
-=======
 	height: 100px;
->>>>>>> origin/master
-=======
-	height: 100px;
->>>>>>> origin/master
 }
 /*front cover image*/
 .card .cover{
     height: 100px;
     overflow: hidden;
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-
-=======
     margin-bottom: 1em;
     background-size: 100% 100px;
     background-repeat: no-repeat;
->>>>>>> origin/master
-=======
-    margin-bottom: 1em;
-    background-size: 100% 100px;
-    background-repeat: no-repeat;
->>>>>>> origin/master
 }
 
 .cover img {
@@ -368,86 +225,11 @@ border: none;
   margin: 5px;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-*/
 
 .backimage {
     width: 100%;
     height: 180px;
     margin: 0;
-=======
-=======
->>>>>>> origin/master
-/*images for Indicator A */
-/* disabled until new bg images are made
-.card .cover.disposable-income {
-    background-image: url(../images/dis-inc-bg.png);
-<<<<<<< HEAD
->>>>>>> origin/master
-=======
->>>>>>> origin/master
-}
-
-.card .cover.job-car {
-    background-image: url(../images/job-car-bg.png);
-}
-
-.card .cover.job-transit {
-    background-image: url(../images/job-train-bg.png);
-}
-
-.card .cover.road-repair {
-    background-image: url(../images/stat-rep-bg.png);
-}
-*/
-/* Images for Indicator B*/
-
-/* disabled until new bg images are made
-.card .cover.walk {
-    background-image: url(../images/walk.png);
-}
-.card .cover.mode {
-    background-image: url(../images/mode.png);
-}
-.card .cover.isolated {
-    background-image: url(../images/isolated.png);
-}
-.card .cover.reliable {
-    background-image: url(../images/reliable-transit.png);
-}
-
-/* Images for Indicator C */
-
-/* disabled until new bg images are made
-.card .cover.land {
-    background-image: url(../images/land.png);
-}
-.card .cover.pollution {
-    background-image: url(../images/pollution.png);
-}
-.card .cover.commute {
-    background-image: url(../images/commute.png);
-}
-.card .cover.congestion {
-    background-image: url(../images/congestion.png);
-}
- disabled until new bg images are made */
-/*
-
-.card .user{
-    display: block;
-    margin: 0 auto 0;
-    overflow: hidden;
-    width: 80px;
-}
-.card .user img{
-    background: none repeat scroll 0 0 #FFFFFF;
-    border: 4px solid #FFFFFF;
-    width: 100%;
-}
-
-*/
 
 .card .content{
     background-color: rgba(0, 0, 0, 0);
@@ -459,15 +241,7 @@ border: none;
     min-height: 100px;
 }
 .card .back .content .main {
-<<<<<<< HEAD
-<<<<<<< HEAD
-    height: 220px;
-=======
     height: 100px;
->>>>>>> origin/master
-=======
-    height: 100px;
->>>>>>> origin/master
 }
 
 .card .back p {
