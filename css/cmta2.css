@@ -25,23 +25,42 @@
 }
 
 
-/* Flipcard mechanisms */
+/* Flipcard mechanisms
+from:
+http://davidwalsh.name/css-flip
+with added browser compatibility.
+*/
 .flipcardcontainer {
-  perspective: 1000;
+  -webkit-perspective: 800px;
+  -moz-perspective: 800px;
+  -o-perspective: 800px;
+  perspective: 800px;
 }
 
 .flipcardcontainer:hover .flipcard, .flipcardcontainer.hover .flipcard {
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
   transform: rotateY(180deg);
 }
 
 .flipcard {
-  transition: 0.6s;
+  -webkit-transition: -webkit-transform .5s;
+  -moz-transition: -moz-transform .5s;
+  -o-transition: -o-transform .5s;
+  transition: transform .5s;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
   transform-style: preserve-3d;
+  font-family: CMTA;
   position: relative;
 }
 
-
 .front, .back {
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
   backface-visibility: hidden;
 }
 
@@ -118,9 +137,10 @@ main {
 }
 
 .indGrp h2 {
-  height: 60px;
   margin: 5px 5px 5px 5px;
-  padding: 0px;
+  padding: 10px;
+  font-size: 18pt;
+  font-family: CMTABold;
 }
 
 #indA h2 {
@@ -148,5 +168,34 @@ h2 {
   margin-left: 30px;
 }
 
+.flipcard h3 {
+  font-size: 10pt;
+}
+
+.flipcard {
+  height: 100px;
+}
+
+.flipcard p.grade {
+  color: #Ef1D2C;
+  text-align: center;
+  margin: 20px;
+  font-weight: 700;
+  line-height: .6em;
+  font-size: 2em;
+  clear: left;
+}
+
+/*
+.flipcard h3 {
+  border-bottom: 1px solid #EEEEEE;
+  color: #000000;
+  font-size: 22px;
+  font-weight: 700;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+*/
 
 /* Footer content */
