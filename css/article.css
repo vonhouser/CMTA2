@@ -12,29 +12,33 @@
 }
 .CMTAbanner {
   background-size: cover;
+  height: 200px;
   top: 0px;
   padding: 10px;
   background-color: #FFFFFF;
+    line-height: 225px;
     letter-spacing: .5em;  
-  line-height: normal;
 }
 .check {
     margin-top: 50px;
 }
 .banner {
-/*    position: fixed;*/
+    position: fixed;
     width: 100%;
     left: 0;
     margin-left: 0;
 }
 .CMTAbannerleft {
+  top: 0px;
   padding-top: 50px;
+  height: 200px;
   background-color: #FFFFFF;
 }
 
 .CMTAbanner_right {
   top: 0px;
   padding-top: 50px;
+  height: 200px;
   background-color: #FFFFFF;
 
 }
@@ -45,10 +49,6 @@
 */
 .CMTAbannerleft .logo {
 
-}
-
-img.check {
-  max-height: 100px;
 }
 
 hr {
@@ -76,44 +76,42 @@ border: none;
     margin-top: 1em;
 }
 
-.CMTAbanner p {
+.CMTAbanner h3 {
     color: #323F47;
     font-family: CMTA;
     font-size: 1.2em;
     text-align: left;
     letter-spacing: 0.1em;
-    font-size: 12pt;
+    font-size: 
 }
 
 .grade {
+  margin-top: 225px;
   font-family: CMTAbold;
-  font-size: 8em;
+  font-size: 6em;
   color: #EF1D2C;
-  text-align: left;
-}
-
-.CMTAbannerleft p {
-  margin-top: 100px;
-  font-family: CMTA;
-  font-size: 4.5em;
-  text-align: left;
-  color: #123E47;
+    margin-left: 40px;
 }
 
 .article-content {
 
-/*    margin-top: 260px;*/
+    margin-top: 260px;
 
 }
 .articleicon {
     float: left;
     height: 75px;
+    margin-left: 50px;
     padding-right: 5px;
 }
 
 
 .headin {
-
+    font-family: CMTA;
+    font-size: 4.5em;
+    text-align: left;
+    margin-left: 50px;
+    color: #123E47;
 }
 
 .subheadin {
@@ -125,11 +123,12 @@ border: none;
 }
 
  .content {
-     height: 100%;
-     width: 100%;
+     height: auto;
+     width: auto;
      position: relative;
-     overflow: hidden;
+     overflow: auto;
      text-align: left;
+      margin-left: 45px;
  }
 
 .contentind {
@@ -138,14 +137,18 @@ border: none;
     position: relative;
     overflow: auto;
     text-align: left;
+    margin-left: 100px;
     font-family: CMTA;
+     margin-left: 50px;
 }
 .indfirst {
     height: auto;
     width: auto;
     position: relative;
     text-align: left;
+    margin-left: 100px;
     font-family: CMTA;
+    margin-left: 50px;
 }
 
 /*
@@ -193,43 +196,19 @@ border: none;
 }
 }
 */
-
-/*
 @media(max-width:767px) {
-  .row {
-    clear: both;
+    .article-content {
     margin-left: 0;
-    width: 95%;
-  }
+   width: 95%;
+ 
+}
 
-  .CMTAbannerleft .logo .article-bg {
-    width: 0px;
-  }
+    
+    .CMTAbannerleft .logo {
+        display: none;
+    }
+    .article-bg {
+    display: none;
+    }
 }
 */
-
-.social-links p {
-  font-size: 10pt;
-  vertical-align: middle;
-}
-
-.social-links p a {
-  font-size: 18pt;
-  vertical-align: middle;
-}
-
-@media (min-width: 768px) {
-  .container {
-    width: 100%
-  }
-
-  p.grade {
-    font-size: 6em;
-  }
-}
-
-@media (min-width: 977px) {
-  p.grade {
-    font-size: 8em;
-  }
-}
