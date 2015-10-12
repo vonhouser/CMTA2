@@ -8,32 +8,28 @@
     src: url(../fonts/TradeGothicLTStdBold@0.otf );
 }
 
-
 /*
 .sidebar {
     border-left-color: #0088dd;
     width: 10px;
-
 }
 */
-
-.CMTAbanner h1 {
-    color: #323F47;
+.banner h1 {
+    color: #FFF;
     font-family: CMTABold;
-    letter-spacing: 0.1em;
     text-align: left;
-    margin-top: 1em;
+    line-height: 30px;
 }
 
-.CMTAbanner h3 {
-    color: #323F47;
+.banner h3 {
+    color: #FFF;
     font-family: CMTA;
     font-size: 1.2em;
     text-align: left;
-    letter-spacing: 0.1em;
-    font-size: 
+    line-height: 20px;
 }
 
+/*
 .CMTAbanner_right .logo {
   height: 100px;
 }
@@ -41,32 +37,28 @@
 .CMTAbannerleft .logo {
   height: 90px;
 }
+*/
 
 .banner {
-    background-color:#FFF;
-   position: fixed;
+    background-image: url(../images/carousel_MARC.jpg);
+    background-size: cover;
     z-index: 1;
     width: 100%;
     left: 0;
-    margin-left: 0;
-    height: 180px;
+    height: 160px;
 }
+
+/*
 .CMTAbannerleft {
   top: 0px;
-  z-index: 1;
   padding-top: 50px;
-  height: 180px;
   background-color: #FFFFFF;
-  margin-left: 200px;
 }
 
 .CMTAbanner_right {
   top: 0px;
-  z-index: 1;
   padding-top: 50px;
-  height: px;
   background-color: #FFFFFF;
-
 }
 
 .logo {
@@ -75,14 +67,14 @@
 }
 
 .CMTAbanner {
-  background-size: cover;
-  height: 180px;
-  top: 0px;
-  padding: 10px;
-  background-color: #FFFFFF;
-    line-height: 225px;
-    letter-spacing: .5em;  
+    background-size: cover;
+    top: 0px;
+    padding: 10px;
+    background-color: #FFFFFF;
+    letter-spacing: .5em;
+    line-height: normal; 
 }
+*/
 
 hr {
 height: 1px;
@@ -102,8 +94,8 @@ border: none;
 }
 
 .indicator-category {
-    height: 65px;
-    margin: 20px 0 10px 0;
+    height: 30px;
+    margin: 10px 0 10px 0;
 }
 
 .indicator-category.indA {
@@ -125,13 +117,13 @@ border: none;
 }
 
 .indicator-category .wrapper {
-    padding: 10px 0 0 0;
+    padding: 0px 0 0 0;
 }
 
 .indicator-category h1 {
     clear: both;
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-size: 2.1em;
+    font-family: CMTA;
+    font-size: 1.6em;
     text-decoration: none;
     text-shadow: 0 -1px 0 #000;
     color: #FFF;
@@ -221,53 +213,54 @@ border: none;
 /*        Style       */
 
 .row.padded {
-margin-top:200px;
-    height:380px;
+    height:100px;
     display:block;
-padding:0;
+    padding:0;
 }
 
-.paddedB
-{
+.paddedB    {
     margin-top: 20px;
-    height:260px;
+    height:100px;
     display:block;
     padding:0;
 }
 
 .row.paddedC {
-    height:350px;
+    height:100px;
     display:block;
     padding:0;
 }
-
 
 
 .card{
     background: none repeat scroll 0 0 #FFFFFF;
     border-radius: 4px;
     color: #444444;
-    min-height: 260px;
+    min-height: 100px;
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 1);
 }
 .card-container, .front, .back {
 	width: 100%;
-	height: 180px;
+	height: 100px;
 }
+/*front cover image*/
 
+/*
 .card .cover{
-    height: 125px;
+    height: 100px;
     overflow: hidden;
-    
-    margin-bottom: 1em;
 }
+*/
 
 /*images for Indicator A */
 
-.card .cover.disposable-income {
-    background-image: url(../images/dis-inc-bg.png);
-    background-size: 100% 125px;
+.disposable-income {
+    background-image: url(../images/cars-pollution.jpg);
+    background-repeat: no-repeat;
+    background-size: 220px; 220px;
+    opacity: 0.4;
 }
+
 
 /*
 .walkback {
@@ -277,25 +270,35 @@ padding:0;
 
 */
 
+.disposableicon {
+    height: 60px;
+    float: left;
+    margin: 0;
+    vertical-align:middle;
+}
+
 .backimage {
     width: 100%;
-    height: 200px;
+    height: 100px;
     margin: 0;
 }
 
 .card .cover.job-car {
     background-image: url(../images/job-car-bg.png);
     background-size: 100% 125px;
+    opacity: 0.4;
 }
 
 .card .cover.job-transit {
     background-image: url(../images/job-train-bg.png);
-    background-size: 100% 125px;
+    background-size: 100% 125px    
+    opacity: 0.4;
 }
 
 .card .cover.road-repair {
     background-image: url(../images/stat-rep-bg.png);
     background-size: 100% 125px;
+    opacity: 0.4;
 }
 
 /* Images for Indicator B*/
@@ -304,18 +307,22 @@ padding:0;
 .card .cover.walk {
     background-image: url(../images/walk.png);
     background-size: 100% 125px;
+    opacity: 0.4;
 }
 .card .cover.mode {
     background-image: url(../images/mode.png);
     background-size: 100% 125px;
+    opacity: 0.4;
 }
 .card .cover.isolated {
     background-image: url(../images/isolated.png);
     background-size: 100% 125px;
+    opacity: 0.4;
 }
 .card .cover.reliable {
     background-image: url(../images/reliable-transit.png);
     background-size: 100% 125px;
+    opacity: 0.4;
 }
 
 /* Images for Indicator C */
@@ -324,30 +331,34 @@ padding:0;
 .card .cover.land {
     background-image: url(../images/land.png);
     background-size: 100% 125px;
+    opacity: 0.4;
 }
 .card .cover.pollution {
     background-image: url(../images/pollution.png);
     background-size: 100% 125px;
+    opacity: 0.4;
 }
 .card .cover.commute {
     background-image: url(../images/commute.png);
     background-size: 100% 125px;
+    opacity: 0.4;
 }
 .card .cover.congestion {
     background-image: url(../images/congestion.png);
     background-size: 100% 125px;
+    opacity: 0.4;
 }
 
 .wrapper.indA .cover img{
-    border-bottom: 35px solid #323F47;
+    border-bottom: 30px solid #323F47;
 }
 
 .wrapper.indB .cover img{
-    border-bottom: 35px solid #0E4D6F;
+    border-bottom: 30px solid #0E4D6F;
 }
 
 .wrapper.indC .cover img{
-    border-bottom: 35px solid #133E47;
+    border-bottom: 30px solid #133E47;
 }
 
 
@@ -370,13 +381,13 @@ padding:0;
 .card .content{
     background-color: rgba(0, 0, 0, 0);
     box-shadow: none;
-    padding: 10px 20px 20px;
+    padding: 5px 5px 5px;
 }
 .card .content .main {
-    min-height: 160px;
+    min-height: 100px;
 }
 .card .back .content .main {
-    height: 215px;
+    height: 100px;
 }
 
 .card .back p {
@@ -401,10 +412,9 @@ padding:0;
 }
 
 .card .indicator {
-    font-size: 20px;
-    line-height: 20px;
-    margin: 0 0 10px 0;
-    text-align: center;
+    font-size: 15px;
+    line-height: 10px;
+    text-align:left;
     text-transform: capitalize;
 }
 .card h5{
@@ -420,14 +430,15 @@ padding:0;
 
 .card .grade {
     color: #Ef1D2C;
-    text-align: center;
+    text-align: right;
     margin-bottom: 20px;
-    font-size: 18px;
+
     font-weight: 700;
-    line-height: .6em;
+
     font-size: 2em;
 }
 
+/*
 .card .footer {
     border-top: 1px solid #EEEEEE;
     color: #999999;
@@ -450,7 +461,7 @@ padding:0;
 }
 
 .card .back .content {
-    height: 345px;
+    height: 100px;
     padding: 3px 20px 20px;
 }
 
@@ -477,7 +488,7 @@ padding:0;
 .wrapper.indC .motto {
     color: #133E47;
 }
-
+*/
 /*      Just for presentation        */
 
 .title{
