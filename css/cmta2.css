@@ -3,3 +3,17 @@
 
 #indA {
 }
+
+.flipcard .front .row img.icon {
+  height: 50px;
+  width: 50px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.flipcard .front p.grade {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+
