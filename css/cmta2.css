@@ -85,14 +85,14 @@ hr {
 
 header .banner p {
 /*    color: #323F47; */
-    font-family: CMTA;
+    font-family: CMTAbold;
     text-align: left;
     letter-spacing: 0.1em;
-    font-size: 12pt;
+    font-size: 14pt;
 }
 
 .banner {
-    background-image: url(../images/carousel_MARC.jpg);
+    background-image: url(../images/coverImg-cropped.jpg);
     background-size: cover;
     background-color: #FF0000;
     width: 100%;
@@ -207,11 +207,21 @@ main {
 }
 
 .flipcard#disposable-income .front {
-  background-image: url('../images/dis-inc-bg.png');
+  background-image: url('../images/cardfrontimages/disposableIncomeImgO.png');
   /* Do the opacity in the images... it'll be easier */
 }
 
 .flipcard#disposable-income .back {
+  background-image: url('../images/CardBacks/disposabletest.png');
+}
+
+.flipcard#job-transit .front {
+  background-image: url('../images/cardfrontimages/job');
+
+  /* Do the opacity in the images... it'll be easier */
+}
+
+.flipcard#job-transit .back {
   background-image: url('../images/CardBacks/disposabletest.png');
 }
 
