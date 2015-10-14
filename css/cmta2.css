@@ -215,16 +215,92 @@ main {
   background-image: url('../images/CardBacks/disposabletest.png');
 }
 
-.flipcard#job-transit .front {
-  background-image: url('../images/cardfrontimages/job');
+.flipcard#road-repair .front {
+  background-image: url('../images/cardfrontimages/roadrepairfront.jpg');
+}
 
-  /* Do the opacity in the images... it'll be easier */
+.flipcard#road-repair .back {
+  background-image: url('../images/CardBacks/disposabletest.png');
+}
+.flipcard#job-transit .front {
+  background-image: url('../images/cardfrontimages/roadrepairfront.jpg');
 }
 
 .flipcard#job-transit .back {
   background-image: url('../images/CardBacks/disposabletest.png');
 }
 
+.flipcard#job-car .front {
+  background-image: url('../images/cardfrontimages/jobcarfront.jpg');
+}
+
+.flipcard#job-car .back {
+  background-image: url('../images/CardBacks/disposabletest.png');
+}
+
+.flipcard#walk .front {
+  background-image: url('../images/cardfrontimages/walkfront.jpg');
+}
+
+.flipcard#walk .back {
+  background-image: url('../images/CardBacks/disposabletest.png');
+}
+
+.flipcard#mode .front {
+  background-image: url('../images/cardfrontimages/commutemodefront.jpg');
+}
+
+.flipcard#mode .back {
+  background-image: url('../images/CardBacks/disposabletest.png');
+}
+
+.flipcard#isolated .front {
+  background-image: url('../images/cardfrontimages/disconnectedfront.jpg');
+}
+
+.flipcard#isolated .back {
+  background-image: url('../images/CardBacks/disposabletest.png');
+}
+
+.flipcard#reliable .front {
+  background-image: url('../images/cardfrontimages/reliablefront.jpg');
+}
+
+.flipcard#reliable .back {
+  background-image: url('../images/CardBacks/disposabletest.png');
+}
+
+.flipcard#land .front {
+  background-image: url('../images/cardfrontimages/physicalfront.jpg');
+}
+
+.flipcard#land .back {
+  background-image: url('../images/CardBacks/disposabletest.png');
+}
+
+.flipcard#pollution .front {
+  background-image: url('../images/cardfrontimages/pollutionfront.jpg');
+}
+
+.flipcard#pollution .back {
+  background-image: url('../images/CardBacks/disposabletest.png');
+}
+
+.flipcard#commute .front {
+  background-image: url('../images/cardfrontimages/commutetimefront.jpg');
+}
+
+.flipcard#commute .back {
+  background-image: url('../images/CardBacks/disposabletest.png');
+}
+
+.flipcard#congestion .front {
+  background-image: url('../images/cardfrontimages/congestionfront.jpg');
+}
+
+.flipcard#congestion .back {
+  background-image: url('../images/CardBacks/disposabletest.png');
+}
 
 /* Footer content */
 footer {
