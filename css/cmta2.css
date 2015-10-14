@@ -212,7 +212,7 @@ main {
 }
 
 .flipcard#disposable-income .back {
-  background-image: url('../images/CardBacks/disposabletest.png');
+  background-image: url('../images/CardBacks/small/disposableIncomeBack.jpg');
 }
 
 .flipcard#road-repair .front {
@@ -220,14 +220,14 @@ main {
 }
 
 .flipcard#road-repair .back {
-  background-image: url('../images/CardBacks/disposabletest.png');
+  background-image: url('../images/CardBacks/small/stateOfGoodRepairBack.jpg');
 }
 .flipcard#job-transit .front {
   background-image: url('../images/cardfrontimages/roadrepairfront.jpg');
 }
 
 .flipcard#job-transit .back {
-  background-image: url('../images/CardBacks/disposabletest.png');
+  background-image: url('../images/CardBacks/small/jobAccessByTransitBack.jpg');
 }
 
 .flipcard#job-car .front {
@@ -235,7 +235,7 @@ main {
 }
 
 .flipcard#job-car .back {
-  background-image: url('../images/CardBacks/disposabletest.png');
+  background-image: url('../images/CardBacks/small/jobAccessByCarBack.jpg');
 }
 
 .flipcard#walk .front {
@@ -243,7 +243,7 @@ main {
 }
 
 .flipcard#walk .back {
-  background-image: url('../images/CardBacks/disposabletest.png');
+  background-image: url('../images/CardBacks/small/walkabilityBack.jpg');
 }
 
 .flipcard#mode .front {
@@ -251,7 +251,7 @@ main {
 }
 
 .flipcard#mode .back {
-  background-image: url('../images/CardBacks/disposabletest.png');
+  background-image: url('../images/CardBacks/small/commuteModeBack.jpg');
 }
 
 .flipcard#isolated .front {
@@ -259,7 +259,7 @@ main {
 }
 
 .flipcard#isolated .back {
-  background-image: url('../images/CardBacks/disposabletest.png');
+  background-image: url('../images/CardBacks/small/disconnectedCommunitiesBack.jpg');
 }
 
 .flipcard#reliable .front {
@@ -267,7 +267,7 @@ main {
 }
 
 .flipcard#reliable .back {
-  background-image: url('../images/CardBacks/disposabletest.png');
+  background-image: url('../images/CardBacks/small/reliableTransitBack.jpg');
 }
 
 .flipcard#land .front {
@@ -275,7 +275,7 @@ main {
 }
 
 .flipcard#land .back {
-  background-image: url('../images/CardBacks/disposabletest.png');
+  background-image: url('../images/CardBacks/small/physicalActivityBack.jpg');
 }
 
 .flipcard#pollution .front {
@@ -283,7 +283,7 @@ main {
 }
 
 .flipcard#pollution .back {
-  background-image: url('../images/CardBacks/disposabletest.png');
+  background-image: url('../images/CardBacks/small/airPollutionBack.jpg');
 }
 
 .flipcard#commute .front {
@@ -291,7 +291,7 @@ main {
 }
 
 .flipcard#commute .back {
-  background-image: url('../images/CardBacks/disposabletest.png');
+  background-image: url('../images/CardBacks/small/commuteTimeBack.jpg');
 }
 
 .flipcard#congestion .front {
@@ -299,7 +299,7 @@ main {
 }
 
 .flipcard#congestion .back {
-  background-image: url('../images/CardBacks/disposabletest.png');
+  background-image: url('../images/CardBacks/small/congestionBack.jpg');
 }
 
 /* Footer content */
