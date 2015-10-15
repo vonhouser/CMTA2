@@ -22,7 +22,6 @@
     margin-top: 50px;
 }
 .banner {
-/*    position: fixed;*/
     width: 100%;
     left: 0;
     margin-left: 0;
@@ -87,11 +86,28 @@ border: none;
 
 .grade {
   font-family: CMTAbold;
-  font-size: 8em;
+  font-size: 7em;
   color: #EF1D2C;
   text-align: left;
 }
 
+
+
+.indicatorheading {
+    font-family: CMTAbold;
+    color: #EF1D2C;
+    text-align: left;
+    margin-left: 0;
+    font-size: 4em;
+}
+
+.action {
+    font-family: CMTA;
+    font-size: 2em;
+    text-align: left;
+}
+
+/*
 .CMTAbannerleft p {
   margin-top: 100px;
   font-family: CMTA;
@@ -99,6 +115,7 @@ border: none;
   text-align: left;
   color: #123E47;
 }
+*/
 
 .article-content {
 
@@ -109,11 +126,6 @@ border: none;
     float: left;
     height: 75px;
     padding-right: 5px;
-}
-
-
-.headin {
-
 }
 
 .subheadin {
@@ -223,14 +235,11 @@ border: none;
     width: 100%
   }
 
-  p.grade {
-    font-size: 6em;
-  }
 }
 
 @media (min-width: 977px) {
   p.grade {
-    font-size: 8em;
+
   }
 }
 

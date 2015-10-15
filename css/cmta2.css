@@ -54,7 +54,7 @@ with added browser compatibility.
   -moz-transform: rotateY(0deg);
   -o-transform: rotateY(0deg);
   transform: rotateY(0deg);
-  height: 100px;
+  height: 120px;
 }
 
 .back {
@@ -62,7 +62,7 @@ with added browser compatibility.
   -moz-transform: rotateY(180deg);
   -o-transform: rotateY(180deg);
   transform: rotateY(180deg);
-  height: 100px;
+  height: 120px;
 }
 
 
@@ -79,28 +79,33 @@ hr {
 .banner h1 {
 /*    color: #323F47;*/
     font-family: CMTABold;
-    letter-spacing: 0.1em;
     text-align: left;
+    font-size: 4em;
+
 }
 
-header .banner p {
+.headersub {
 /*    color: #323F47; */
     font-family: CMTAbold;
     text-align: left;
-    letter-spacing: 0.1em;
-    font-size: 14pt;
+    font-size: 18pt;
+}
+.bannergrade {
+    font-family: CMTAbold;
+    font-size: 4em;
+    
 }
 
 .banner {
-    background-image: url(../images/coverImg-cropped.jpg);
+    background-image: url(../images/covercrop.jpg);
     background-size: cover;
     background-color: #FF0000;
     width: 100%;
     margin: 0px;
     padding: 20px;
     color: #FFF;
+    height: 300px;
 }
-
 
 /* Main content */
 main {
@@ -115,13 +120,14 @@ main {
 }
 
 .indGrp h2 {
-  margin: 5px 5px 5px 5px;
+  margin: 5px 0px 5px 0px;
   padding: 10px;
   font-size: 18pt;
   font-family: CMTABold;
   color: #FFFFFF;
   text-align: left;
 }
+
 
 #indA h2 {
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #323F47), color-stop(0.6, #222C32));
@@ -142,7 +148,7 @@ main {
 }
 
 .flipcard {
-  height: 100px;
+  height: 120px;
   max-width: 260px;
   text-align: left;
   margin: 0px auto;
@@ -163,20 +169,30 @@ main {
   width: 100%;
 }
 
+.flipcard .front h3.indicator {
+  clear: left;
+  margin: 30px;
+  padding: 0px;
+  width: 100%;
+
+}
+
 .flipcard p.grade {
-  color: #Ef1D2C;
+  font-family: CMTAbold;
+    color: #Ef1D2C;
   text-align: center;
   margin: 20px;
   font-weight: 700;
-  line-height: .6em;
+  line-height: .4em;
   font-size: 2em;
   clear: left;
 }
 
 .flipcard h3 {
-  font-size: 10pt;
-  margin: 10px;
+  font-family: CMTAbold;
+  font-size: 16pt;
   padding: 0px;
+
 }
 
 .flipcard .front {
@@ -185,7 +201,7 @@ main {
 
 .flipcard .back {
   position: relative;
-  top: -100px;
+  top: -120px;
 }
 
 /* reposition the Learn More link here */
@@ -201,13 +217,18 @@ main {
 }
 
 /* Flipcard bg images */
-.flipcard .front, .flipcard .back {
+.flipcard .front {
   background-repeat: no-repeat;
   background-size:cover
 }
 
+.flipcard .back {
+  background-repeat: no-repeat;
+  background-size:contain
+}
+
 .flipcard#disposable-income .front {
-  background-image: url('../images/cardfrontimages/disposableIncomeImgO.png');
+  background-image: url('../images/cardfrontimages/disposableIncomeFront.png');
   /* Do the opacity in the images... it'll be easier */
 }
 
@@ -216,14 +237,14 @@ main {
 }
 
 .flipcard#road-repair .front {
-  background-image: url('../images/cardfrontimages/roadrepairfront.jpg');
+  background-image: url('../images/cardfrontimages/stateOfGoodRepairFront.png');
 }
 
 .flipcard#road-repair .back {
   background-image: url('../images/CardBacks/small/stateOfGoodRepairBack.jpg');
 }
 .flipcard#job-transit .front {
-  background-image: url('../images/cardfrontimages/roadrepairfront.jpg');
+  background-image: url('../images/cardfrontimages/jobAccessByTransitfront.jpg');
 }
 
 .flipcard#job-transit .back {
@@ -231,7 +252,7 @@ main {
 }
 
 .flipcard#job-car .front {
-  background-image: url('../images/cardfrontimages/jobcarfront.jpg');
+  background-image: url('../images/cardfrontimages/jobAccessByCarFront.png');
 }
 
 .flipcard#job-car .back {
@@ -239,7 +260,7 @@ main {
 }
 
 .flipcard#walk .front {
-  background-image: url('../images/cardfrontimages/walkfront.jpg');
+  background-image: url('../images/cardfrontimages/walkabilityFront.png');
 }
 
 .flipcard#walk .back {
@@ -247,7 +268,7 @@ main {
 }
 
 .flipcard#mode .front {
-  background-image: url('../images/cardfrontimages/commutemodefront.jpg');
+  background-image: url('../images/cardfrontimages/commuteModeFront.png');
 }
 
 .flipcard#mode .back {
@@ -255,7 +276,7 @@ main {
 }
 
 .flipcard#isolated .front {
-  background-image: url('../images/cardfrontimages/disconnectedfront.jpg');
+  background-image: url('../images/cardfrontimages/disconnectedCommunitiesFront.png');
 }
 
 .flipcard#isolated .back {
@@ -263,7 +284,7 @@ main {
 }
 
 .flipcard#reliable .front {
-  background-image: url('../images/cardfrontimages/reliablefront.jpg');
+  background-image: url('../images/cardfrontimages/reliableTransitFront.png');
 }
 
 .flipcard#reliable .back {
@@ -271,7 +292,7 @@ main {
 }
 
 .flipcard#land .front {
-  background-image: url('../images/cardfrontimages/physicalfront.jpg');
+  background-image: url('../images/cardfrontimages/physicalActivityFront.png');
 }
 
 .flipcard#land .back {
@@ -279,7 +300,7 @@ main {
 }
 
 .flipcard#pollution .front {
-  background-image: url('../images/cardfrontimages/pollutionfront.jpg');
+  background-image: url('../images/cardfrontimages/airPollutionFront.png');
 }
 
 .flipcard#pollution .back {
@@ -287,7 +308,7 @@ main {
 }
 
 .flipcard#commute .front {
-  background-image: url('../images/cardfrontimages/commutetimefront.jpg');
+  background-image: url('../images/cardfrontimages/commuteTimeFront.png');
 }
 
 .flipcard#commute .back {
@@ -295,7 +316,7 @@ main {
 }
 
 .flipcard#congestion .front {
-  background-image: url('../images/cardfrontimages/congestionfront.jpg');
+  background-image: url('../images/cardfrontimages/congestionFront.png');
 }
 
 .flipcard#congestion .back {

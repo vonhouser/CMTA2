@@ -14,6 +14,7 @@
     font-family: CMTABold;
     letter-spacing: 0.1em;
     text-align: left;
+    font-size: 8em;
 }
 
 h2 {
@@ -26,7 +27,7 @@ h2 {
 .CMTAbanner p {
     color: #323F47;
     font-family: CMTA;
-    font-size: 1.2em;
+    font-size: 1.4em;
     text-align: left;
     letter-spacing: 0.1em;
     font-size: 12pt;
@@ -230,6 +231,7 @@ border: none;
     width: 100%;
     height: 180px;
     margin: 0;
+}
 
 .card .content{
     background-color: rgba(0, 0, 0, 0);
