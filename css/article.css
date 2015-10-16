@@ -23,12 +23,13 @@
 .cardbackheader {
     width: 100%;
 }
-
+/*
 .banner {
     width: 100%;
     left: 0;
     margin-left: 0;
 }
+*/
 
 hr {
 height: 1px;
@@ -46,13 +47,15 @@ border: none;
     letter-spacing: 0.1em;
     text-align: left;
     margin-top: 1em;
-    font-size: 3.5em;
+    font-size: 2.6em;
+    letter-spacing: 1px;
+
 }
 
 .CMTAbanner p {
     color: #323F47;
     font-family: CMTA;
-    font-size: 1.1em;
+    font-size: 1em;
     text-align: left;
     letter-spacing: 0.1em;
 }
@@ -62,17 +65,14 @@ border: none;
   font-size: 7em;
   color: #EF1D2C;
   text-align: left;
-  margin-top: 250px;
 }
-
-
 
 .indicatorheading {
     font-family: CMTAbold;
     color: #EF1D2C;
     text-align: left;
     margin-left: 0;
-    font-size: 4em;
+    font-size: 7em;
 }
 a {
     color: #428bca;
@@ -82,8 +82,13 @@ a {
     background-color: #EF1D2C;
 }
 
+.btnReturn {
+    background-color: #0E4D6F;
+
+    
+}
+
 .fb-share-button {
-    float: left;
 }
 
 
@@ -96,6 +101,7 @@ margin-top: 35px;
     padding-right: 5px;
 }
 
+/*
 .subheadin {
     font-family: CMTA;
     font-size: 3em;
@@ -103,6 +109,7 @@ margin-top: 35px;
     margin-left: 50px;
     color: #EF1D2C;
 }
+*/
 
  .content {
      height: 100%;
@@ -190,9 +197,11 @@ margin-top: 35px;
 }
 
 .social-links p a {
-  font-size: 18pt;
+  font-size: 14pt;
   vertical-align: middle;
 }
+
+
 
 @media (min-width: 768px) {
   .container {
