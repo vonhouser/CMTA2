@@ -23,6 +23,128 @@
   background-repeat: no-repeat;
   z-index: 1;
 }
+.background-disposable {
+  background-image: url(../images/sidebars/disposableIncomeImg.jpg);
+  background-size: cover;
+  background-position: top;
+  width: 23.5%;
+  position: fixed;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+.background-walk {
+  background-image: url(../images/sidebars/walkabilityImg.jpg);
+  background-size: cover;
+  background-position: top;
+  width: 23.5%;
+  position: fixed;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+
+.background-jobs-transit {
+  background-image: url(../images/sidebars/jobAccessByTransitImg.jpeg);
+  background-size: cover;
+  background-position: top;
+  width: 23.5%;
+  position: fixed;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+.background-jobs-car {
+  background-image: url(../images/sidebars/jobAccessByCarImg.jpg);
+  background-size: cover;
+  background-position: top;
+  width: 23.5%;
+  position: fixed;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+.background-reliable {
+  background-image: url(../images/sidebars/reliableTransitImg.jpg);
+  background-size: cover;
+  background-position: top;
+  width: 23.5%;
+  position: fixed;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+.background-repair {
+  background-image: url(../images/sidebars/stateOfGoodRepairImg.jpg);
+  background-size: cover;
+  background-position: top;
+  width: 23.5%;
+  position: fixed;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+.background-physical {
+  background-image: url(../images/sidebars/physicalActivityImg.jpg);
+  background-size: cover;
+  background-position: top;
+  width: 23.5%;
+  position: fixed;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+
+.background-commute-time {
+  background-image: url(../images/sidebars/commuteTimeImg.jpg);
+  background-size: cover;
+  background-position: top;
+  width: 23.5%;
+  position: fixed;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+.background-congestion {
+  background-image: url(../images/sidebars/congestionImg.JPG);
+  background-size: cover;
+  background-position: top;
+  width: 23.5%;
+  position: fixed;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+.background-disconnected {
+  background-image: url(../images/sidebars/disconnectedCommunitiesImg.jpg);
+  background-size: cover;
+  background-position: top;
+  width: 23.5%;
+  position: fixed;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
 
 .CMTAbanner {
   font-family: CMTA;
