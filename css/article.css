@@ -10,6 +10,20 @@
   background-repeat: no-repeat;
   z-index: 1;
 }
+
+.background-commutemode {
+  background-image: url(../images/sidebars/commuteModeImg.JPG);
+  background-size: cover;
+  background-position: top;
+  width: 23.5%;
+  position: fixed;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+
 .CMTAbanner {
   font-family: CMTA;
   background-size: cover;
