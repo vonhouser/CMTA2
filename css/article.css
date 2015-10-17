@@ -208,7 +208,7 @@ border: none;
     color: #EF1D2C;
     text-align: left;
     margin-left: 0;
-    font-size: 7em;
+    font-size: 4em;
 }
 a {
     color: #428bca;
@@ -256,6 +256,15 @@ margin-top: 35px;
  }
 
 .contentind {
+    height: auto;
+    width: auto;
+    position: relative;
+    overflow: auto;
+    text-align: left;
+    font-family: CMTA;
+}
+.sidebar2 {
+    background-color: #CCC;
     height: auto;
     width: auto;
     position: relative;
