@@ -74,14 +74,24 @@ hr {
   border: none;
 }
 
-
+h1 {
+    color: #323F47;
+    font-family: CMTABold;
+    text-align: left;
+    font-size: 2.5em;
+}
+h2 {
+    color: #323F47;
+    font-family: CMTABold;
+    text-align: left;
+    font-size: 1.5em;
+}
 /* Header content */
 .banner h1 {
 /*    color: #323F47;*/
     font-family: CMTABold;
     text-align: left;
     font-size: 4em;
-
 }
 
 .headersub {
@@ -93,7 +103,6 @@ hr {
 .bannergrade {
     font-family: CMTAbold;
     font-size: 4em;
-    
 }
 
 .banner {
@@ -321,6 +330,75 @@ main {
 
 .flipcard#congestion .back {
   background-image: url('../images/CardBacks/small/congestionBack.jpg');
+}
+
+/*table style*/
+
+.gdp {
+    padding: 100px;
+}
+
+.firstrow {
+    background-color: #133E47;
+    color: #FFF;
+    font-family: CMTA;
+}
+
+.firstrow td {
+    text-align: center;
+    	padding: 4px;
+	margin: 3px;
+	border: 1px solid #ccc;
+    font-family: CMTA;
+}
+
+.secondrow {
+    background-color: #CCC;
+    color: #FFF;
+    font-family: CMTA;
+}
+
+.secondrow td {
+    text-align: center;
+    padding: 4px;
+	margin: 3px;
+	border: 1px solid #ccc;
+    font-family: CMTA;
+}
+
+.table {
+	border: 1px solid #CCC; font-family: CMTA, sans-serif;
+	font-size: 12px;
+    width: 600px;
+} 
+.table td {
+	padding: 4px;
+	margin: 3px;
+	border: 1px solid #ccc;
+    font-family: CMTA;
+}
+.table.firstrow th {
+	background-color: #323F47; 
+	color: #FFF;
+	font-weight: bold;
+    font-family: CMTA;
+}
+.table.firstrow td {
+        font-size: 16px;
+}
+.table heading {
+    width: 600px;
+}
+.footnotes {
+    background-color: #ccc;
+    font-family: CMTA;
+}
+.footnotes td {
+    text-align: center;
+    padding: 4px;
+	margin: 3px;
+	border: 1px solid #ccc;
+    font-family: CMTA;
 }
 
 /* Footer content */
