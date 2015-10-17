@@ -289,6 +289,23 @@ margin-top: 35px;
     font-family: CMTA;
 }
 
+.BNIA {
+    width: 600px;
+    height: auto;
+}
+
+footer {
+  max-width: 950px;
+  margin: 0px auto;
+  font-size:10px;
+  letter-spacing:.05em;
+  font-weight:bold;
+  color:#000000;
+  text-transform:uppercase;
+  padding:20px 0 15px 0;
+  text-align: left;
+}
+
 /*
 @media(max-width:1200px) {
     .article-content {
