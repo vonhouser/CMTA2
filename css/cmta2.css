@@ -88,14 +88,14 @@ h2 {
 }
 /* Header content */
 .banner h1 {
-/*    color: #323F47;*/
+    color: #FFF;
     font-family: CMTABold;
     text-align: left;
     font-size: 4em;
 }
 
 .headersub {
-/*    color: #323F47; */
+    color: #FFF;
     font-family: CMTAbold;
     text-align: left;
     font-size: 18pt;
@@ -108,12 +108,9 @@ h2 {
 .banner {
     background-image: url(../images/covercrop.jpg);
     background-size: cover;
-    background-color: #FF0000;
     width: 950px;
-    margin-left: 95px;
-    padding: 20px;
     color: #FFF;
-    height: 300px;
+    height: 280px;
 }
 
 /* Main content */
