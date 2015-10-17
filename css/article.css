@@ -272,6 +272,15 @@ margin-top: 35px;
     text-align: left;
     font-family: CMTA;
 }
+.footnote p {
+    background-color: #CCC;
+    position: relative;
+    text-align: left;
+    font-family: CMTA;
+    font-size: 18px;
+    padding: 50px;
+}
+
 .indfirst {
     height: auto;
     width: auto;
