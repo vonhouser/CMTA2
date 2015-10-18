@@ -72,6 +72,7 @@ hr {
   color: #123455;
   background-color: #EF1D2C;
   border: none;
+  margin-top: -15px;
 }
 
 h1 {
@@ -92,6 +93,7 @@ h2 {
     font-family: CMTABold;
     text-align: left;
     font-size: 4em;
+    margin-top: 30px;
 }
 
 .headersub {
@@ -99,6 +101,8 @@ h2 {
     font-family: CMTAbold;
     text-align: left;
     font-size: 18pt;
+    margin-top: -15px;
+    margin-bottom: -15px;
 }
 .bannergrade {
     font-family: CMTAbold;
@@ -110,7 +114,7 @@ h2 {
     background-size: cover;
     width: 950px;
     color: #FFF;
-    height: 280px;
+    height: 220px;
 }
 
 /* Main content */
@@ -140,6 +144,8 @@ main {
   background: -webkit-linear-gradient(top, #323F47 0%, #222C32 60%);
   background: -moz-linear-gradient(top, #323F47 0%, #222C32 60%);
 }
+
+
 
 #indB h2 {
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #0E4D6F), color-stop(0.6, #1B3756));
@@ -219,7 +225,7 @@ main {
 }
 
 .flipcard .back div a {
-  color: #7777FF;
+  color: #BAD3E8;
 }
 
 /* Flipcard bg images */

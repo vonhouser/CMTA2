@@ -183,7 +183,7 @@ border: none;
     letter-spacing: 0.1em;
     text-align: left;
     margin-top: 1em;
-    font-size: 2.6em;
+    font-size: 2em;
     letter-spacing: 1px;
 
 }
@@ -191,16 +191,17 @@ border: none;
 .CMTAbanner p {
     color: #323F47;
     font-family: CMTA;
-    font-size: 1em;
+    font-size: .9em;
     text-align: left;
     letter-spacing: 0.1em;
 }
 
 .grade {
   font-family: CMTAbold;
-  font-size: 7em;
+  font-size: 3em;
   color: #EF1D2C;
   text-align: left;
+margin-top: 24px;
 }
 
 .indicatorheading {
@@ -208,7 +209,7 @@ border: none;
     color: #EF1D2C;
     text-align: left;
     margin-left: 0;
-    font-size: 4em;
+    font-size: 3em;
 }
 a {
     color: #428bca;
