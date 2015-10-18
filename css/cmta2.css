@@ -97,7 +97,8 @@ h2 {
     font-family: CMTABold;
     text-align: left;
     font-size: 4em;
-    margin-top: 30px;
+    margin-top: 10px;
+    padding-top: 10px;
 }
 
 .headersub {
@@ -116,10 +117,13 @@ h2 {
 .banner {
     background-image: url(../images/covercrop.jpg);
     background-size: cover;
-    width: 950px;
+    max-width: 950px;
     color: #FFF;
-    height: 220px;
+    min-height: 220px;
     margin: 0px auto;
+}
+.banner>* {
+    margin: 10px;
 }
 
 /* Main content */
@@ -166,10 +170,11 @@ main, header {
 
 .flipcard {
   height: 120px;
-  max-width: 260px;
+  max-width: 215px;
   text-align: left;
   margin: 0px auto;
   font-family: CMTA;
+  margin-bottom: 5px;
 }
 
 .flipcard .front .row img.icon {
@@ -188,37 +193,41 @@ main, header {
 
 .flipcard .front h3.indicator {
   clear: left;
-  margin: 30px;
+  margin: 5px;
+  margin-left: 30px;
   padding: 0px;
-  width: 100%;
-
+  min-height: 46px;
 }
 
 .flipcard p.grade {
   font-family: CMTAbold;
-    color: #Ef1D2C;
+  color: #Ef1D2C;
   text-align: center;
   margin: 20px;
-  font-weight: 700;
-  line-height: .4em;
-  font-size: 2em;
+  font-size: 2.6em;
   clear: left;
+  padding-top: 10px;
 }
 
 .flipcard h3 {
   font-family: CMTAbold;
   font-size: 16pt;
   padding: 0px;
-
 }
 
 .flipcard .front {
   border: 2px solid #DDDDDD;
+  background-repeat: no-repeat;
+  background-size:cover;
+  width: 215px;
 }
 
 .flipcard .back {
   position: relative;
   top: -120px;
+  background-repeat: no-repeat;
+  background-size:contain;
+  width: 215px;
 }
 
 /* reposition the Learn More link here */
@@ -233,16 +242,6 @@ main, header {
   color: #BAD3E8;
 }
 
-/* Flipcard bg images */
-.flipcard .front {
-  background-repeat: no-repeat;
-  background-size:cover
-}
-
-.flipcard .back {
-  background-repeat: no-repeat;
-  background-size:contain
-}
 
 .flipcard#disposable-income .front {
   background-image: url('../images/cardfrontimages/disposableIncomeFront.png');
