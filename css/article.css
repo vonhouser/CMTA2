@@ -197,11 +197,12 @@ border: none;
 }
 
 .grade {
-  font-family: CMTAbold;
-  font-size: 3em;
-  color: #EF1D2C;
-  text-align: left;
-margin-top: 24px;
+   font-family: CMTAbold;
+   font-size: 3em;
+   color: #EF1D2C;
+   text-align: left;
+    margin-top: 24px;
+    text-align: center;
 }
 
 .indicatorheading {

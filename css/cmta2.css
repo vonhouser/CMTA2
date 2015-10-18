@@ -75,6 +75,10 @@ hr {
   margin-top: -15px;
 }
 
+.CMTAbanner hr {
+  margin-top: 0px;
+}
+
 h1 {
     color: #323F47;
     font-family: CMTABold;
@@ -115,10 +119,11 @@ h2 {
     width: 950px;
     color: #FFF;
     height: 220px;
+    margin: 0px auto;
 }
 
 /* Main content */
-main {
+main, header {
   max-width: 950px;
   text-align: center;
   vertical-align: middle;
