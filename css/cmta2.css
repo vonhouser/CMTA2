@@ -21,7 +21,7 @@ with added browser compatibility.
   perspective: 800px;
 }
 
-.flipcardcontainer:hover .flipcard, .flipcardcontainer.hover .flipcard {
+.flipcardcontainer:hover .flipcard, .flipcardcontainer:focus .flipcard, .flipcardcontainer.hover .flipcard {
   -webkit-transform: rotateY(180deg);
   -moz-transform: rotateY(180deg);
   -o-transform: rotateY(180deg);

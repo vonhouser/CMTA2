@@ -31,34 +31,27 @@
 
 <script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE7.js"></script>
 <![endif]-->
-  <!-- <script type="text/javascript" src="js/jquery.js"></script> -->
-  <!--  <script type="text/javascript" src="js/easySlider1.7.js"></script>
-    <script type="text/javascript">
-        $(document).ready(function(){   
-            $("#slider").easySlider({
-                auto: true, 
-                continuous: true,
-                numeric: true
-            });
-        }); 
-    </script>
-  --><!--<link href="css/screen.css" rel="stylesheet" type="text/css" media="screen">--><!--<script language="javascript">
-function toggle() {
-    var ele = document.getElementById("toggleText");
-    if(ele.style.display == "block") {
-            ele.style.display = "none";
-    }
-    else {
-        ele.style.display = "none";
-    }
-} 
-</script>
--->
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
 </head>
 
 <body>
+    <script type="text/javascript"><!--
+    $(document).ready(function() {
+        $('.flipcardcontainer').toggle(function() {
+    $(this).addClass('hover');
+                                 },function() {
+    $(this).removeClass('hover');
+}); 
+                      });
+    
+    $(document).readyfunction() {
+        $('.flipcardcontainer').show();
+    });
+//--></script>
+
 <div class="row">
-<div class="col-md-12 offset-xs-1 col-xs-10">
+<div class="col-md-12 col-md-offset-0 col-xs-offset-1 col-xs-10">
 <header>
     <div class="banner">
     <h1>2015 Transportation Report Card</h1>
@@ -114,7 +107,7 @@ function toggle() {
               <h3 class="indicator">Job Access by Car</h3>
             <p class="grade">D</p>
           </div>
-          <div class="back">
+          <div class="back" >
             <div><a href="jobs_driving.html">Learn More</a></div>
           </div>
         </div>
