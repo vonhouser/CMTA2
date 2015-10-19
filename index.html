@@ -33,23 +33,30 @@
 <![endif]-->
 
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+<script>
+
+$(document).ready(function() {
+    $('.flipcardcontainer').on('tap', function() {
+
+        if ($(this).attr('data-click-state') == 1) {
+            $(this).attr('data-click-state', 0);
+            $(this).removeClass('hover');  
+        } else {
+            $(this).attr('data-click-state', 1);
+            $(this).addClass('hover');   
+        }
+
+    });
+});
+
+</script>
 </head>
 
 <body>
-    <script type="text/javascript"><!--
-    $(document).ready(function() {
-        $('.flipcardcontainer').toggle(function() {
-    $(this).addClass('hover');
-                                 },function() {
-    $(this).removeClass('hover');
-}); 
-                      });
-    
-    $(document).readyfunction() {
-        $('.flipcardcontainer').show();
-    });
-//--></script>
+ 
 
+    
 <div class="row">
 <div class="col-md-12 col-md-offset-0 col-xs-offset-1 col-xs-10">
 <header>
@@ -86,6 +93,7 @@
             <p class="grade">C</p>
           </div>
           <div class="back">
+            <div><a href="stateofgoodrepair.html">Learn More</a></div>
             <div><a href="stateofgoodrepair.html">Learn More</a></div>
           </div>
         </div>
@@ -138,7 +146,7 @@
             <p class="grade">C</p>
           </div>
           <div class="back">
-            <div><a href="">Learn More</a></div>
+            <div><a href="commutemode.html">Learn More</a></div>
           </div>
         </div>
       </div>
@@ -176,7 +184,7 @@
         <div class="flipcard" id="land">
           <div class="front">
               <h3 class="indicator">Physical Activity</h3>
-            <p class="grade">B-</p>
+            <p class="grade">C</p>
           </div>
           <div class="back">
             <div><a href="physicalactivity.html">Learn More</a></div>
@@ -187,7 +195,7 @@
         <div class="flipcard" id="pollution">
           <div class="front">
               <h3 class="indicator">Air Pollution</h3>
-            <p class="grade">C</p>
+            <p class="grade">D</p>
           </div>
           <div class="back">
             <div><a href="pollution.html">Learn More</a></div>
@@ -201,7 +209,7 @@
             <p class="grade">D</p>
           </div>
           <div class="back">
-            <div><a href="">Learn More</a></div>
+            <div><a href="commutetime.html">Learn More</a></div>
           </div>
         </div>
       </div>
