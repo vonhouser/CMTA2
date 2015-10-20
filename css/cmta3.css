@@ -1,0 +1,427 @@
+/* Import custom fonts */
+@font-face {
+    font-family: CMTA;
+    src: url(../fonts/TradeGothicLTStd@0.otf);
+}
+
+@font-face {
+    font-family: CMTAbold;
+    src: url(../fonts/TradeGothicLTStdBold@0.otf );
+}
+
+/* Flipcard mechanisms
+from:
+http://davidwalsh.name/css-flip
+with added browser compatibility.
+*/
+.flipcardcontainer {
+  -webkit-perspective: 800px;
+  -moz-perspective: 800px;
+  -o-perspective: 800px;
+  perspective: 800px;
+}
+
+.flipcardcontainer:hover .flipcard, .flipcardcontainer:focus .flipcard, .flipcardcontainer.hover .flipcard {
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+
+.flipcardcontainer.flipback .flipcard {
+  -webkit-transform: rotateY(0deg);
+  -moz-transform: rotateY(0deg);
+  -o-transform: rotateY(0deg);
+  transform: rotateY(0deg);
+}
+
+.flipcard {
+  -webkit-transition: -webkit-transform .5s;
+  -moz-transition: -moz-transform .5s;
+  -o-transition: -o-transform .5s;
+  transition: transform .5s;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.front, .back {
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.front {
+  z-index: 2;
+/* for firefox 31 */
+  -webkit-transform: rotateY(0deg);
+  -moz-transform: rotateY(0deg);
+  -o-transform: rotateY(0deg);
+  transform: rotateY(0deg);
+  height: 120px;
+}
+
+.back {
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+  height: 120px;
+}
+
+
+/* All content */
+hr {
+  height: 1px;
+  color: #123455;
+  background-color: #EF1D2C;
+  border: none;
+  margin-top: -15px;
+}
+
+.CMTAbanner hr {
+  margin-top: 0px;
+}
+
+h1 {
+    color: #323F47;
+    font-family: CMTABold;
+    text-align: left;
+    font-size: 2.5em;
+}
+h2 {
+    color: #323F47;
+    font-family: CMTABold;
+    text-align: left;
+    font-size: 1.5em;
+}
+/* Header content */
+.banner h1 {
+    color: #FFF;
+    font-family: CMTABold;
+    text-align: left;
+    font-size: 4em;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+.headersub {
+    color: #FFF;
+    font-family: CMTAbold;
+    text-align: left;
+    font-size: 18pt;
+    margin-top: -15px;
+    margin-bottom: -15px;
+}
+.bannergrade {
+    font-family: CMTAbold;
+    font-size: 4em;
+}
+
+.banner {
+    background-image: url(../images/covercrop.jpg);
+    background-size: cover;
+    max-width: 950px;
+    color: #FFF;
+    min-height: 220px;
+    margin: 0px auto;
+}
+.banner>* {
+    margin: 10px;
+}
+
+/* Main content */
+main, header {
+  max-width: 950px;
+  text-align: center;
+  vertical-align: middle;
+  margin: 0px auto;
+}
+
+.indGrp {
+  vertical-align: middle;
+}
+
+.indGrp h2 {
+  margin: 5px 0px 5px 0px;
+  padding: 10px;
+  font-size: 18pt;
+  font-family: CMTABold;
+  color: #FFFFFF;
+  text-align: left;
+}
+
+
+#indA h2 {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #323F47), color-stop(0.6, #222C32));
+  background: -webkit-linear-gradient(top, #323F47 0%, #222C32 60%);
+  background: -moz-linear-gradient(top, #323F47 0%, #222C32 60%);
+}
+
+
+#indB h2 {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #0E4D6F), color-stop(0.6, #1B3756));
+  background: -webkit-linear-gradient(top, #0E4D6F 0%, #1B3756 60%);
+  background: -moz-linear-gradient(top,  #0E4D6F 0%, #1B3756 60%);
+}
+
+#indC h2 {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #133E47), color-stop(0.6, #0E3138));
+  background: -webkit-linear-gradient(top, #133E47 0%, #0E3138 60%);
+  background: -moz-linear-gradient(top, #133E47 0%, #0E3138 60%);
+}
+
+.flipcard {
+  height: 120px;
+  max-width: 215px;
+  text-align: left;
+  margin: 0px auto;
+  font-family: CMTA;
+  margin-bottom: 5px;
+}
+
+.flipcard .front .row img.icon {
+  height: 50px;
+  width: 50px;
+  margin: 5px 0px 0px 20px;
+  padding: 0px;
+}
+
+.flipcard .front p.grade {
+  clear: left;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+
+.flipcard .front h3.indicator {
+  clear: left;
+  margin: 5px;
+  margin-left: 30px;
+  padding: 0px;
+  min-height: 46px;
+}
+
+.flipcard p.grade {
+  font-family: CMTAbold;
+  color: #Ef1D2C;
+  text-align: center;
+  margin: 20px;
+  font-size: 2.6em;
+  clear: left;
+  padding-top: 10px;
+}
+
+.flipcard h3 {
+  font-family: CMTAbold;
+  font-size: 16pt;
+  padding: 0px;
+}
+
+.flipcard .front {
+  border: 2px solid #DDDDDD;
+  background-repeat: no-repeat;
+  background-size:cover;
+  width: 215px;
+}
+
+.flipcard .back {
+  position: relative;
+  top: -120px;
+  background-repeat: no-repeat;
+  background-size:contain;
+  width: 215px;
+}
+
+/* reposition the Learn More link here */
+.flipcard .back div {
+  width: 100px;
+  position: relative;
+  top: 20px;
+  left: 100px;
+}
+
+.flipcard .back div a {
+  color: #BAD3E8;
+}
+
+
+.flipcard#disposable-income .front {
+  background-image: url('../images/cardfrontimages/disposableIncomeFront.png');
+  /* Do the opacity in the images... it'll be easier */
+}
+
+.flipcard#disposable-income .back {
+  background-image: url('../images/CardBacks/small/disposableIncomeBack.jpg');
+}
+
+.flipcard#road-repair .front {
+  background-image: url('../images/cardfrontimages/stateOfGoodRepairFront.png');
+}
+
+.flipcard#road-repair .back {
+  background-image: url('../images/CardBacks/small/stateOfGoodRepairBack.jpg');
+}
+.flipcard#job-transit .front {
+  background-image: url('../images/cardfrontimages/jobAccessByTransitfront.jpg');
+}
+
+.flipcard#job-transit .back {
+  background-image: url('../images/CardBacks/small/jobAccessByTransitBack.jpg');
+}
+
+.flipcard#job-car .front {
+  background-image: url('../images/cardfrontimages/jobAccessByCarFront.png');
+}
+
+.flipcard#job-car .back {
+  background-image: url('../images/CardBacks/small/jobAccessByCarBack.jpg');
+}
+
+.flipcard#walk .front {
+  background-image: url('../images/cardfrontimages/walkabilityFront.png');
+}
+
+.flipcard#walk .back {
+  background-image: url('../images/CardBacks/small/walkabilityBack.jpg');
+}
+
+.flipcard#mode .front {
+  background-image: url('../images/cardfrontimages/commuteModeFront.png');
+}
+
+.flipcard#mode .back {
+  background-image: url('../images/CardBacks/small/commuteModeBack.jpg');
+}
+
+.flipcard#isolated .front {
+  background-image: url('../images/cardfrontimages/disconnectedCommunitiesFront.png');
+}
+
+.flipcard#isolated .back {
+  background-image: url('../images/CardBacks/small/disconnectedCommunitiesBack.jpg');
+}
+
+.flipcard#reliable .front {
+  background-image: url('../images/cardfrontimages/reliableTransitFront.png');
+}
+
+.flipcard#reliable .back {
+  background-image: url('../images/CardBacks/small/reliableTransitBack.jpg');
+}
+
+.flipcard#land .front {
+  background-image: url('../images/cardfrontimages/physicalActivityFront.png');
+}
+
+.flipcard#land .back {
+  background-image: url('../images/CardBacks/small/physicalActivityBack.jpg');
+}
+
+.flipcard#pollution .front {
+  background-image: url('../images/cardfrontimages/airPollutionFront.png');
+}
+
+.flipcard#pollution .back {
+  background-image: url('../images/CardBacks/small/airPollutionBack.jpg');
+}
+
+.flipcard#commute .front {
+  background-image: url('../images/cardfrontimages/commuteTimeFront.png');
+}
+
+.flipcard#commute .back {
+  background-image: url('../images/CardBacks/small/commuteTimeBack.jpg');
+}
+
+.flipcard#congestion .front {
+  background-image: url('../images/cardfrontimages/congestionFront.png');
+}
+
+.flipcard#congestion .back {
+  background-image: url('../images/CardBacks/small/congestionBack.jpg');
+}
+
+/*table style*/
+
+.gdp {
+    padding: 100px;
+}
+
+.firstrow {
+    background-color: #133E47;
+    color: #FFF;
+    font-family: CMTA;
+}
+
+.firstrow td {
+    text-align: center;
+    	padding: 4px;
+	margin: 3px;
+	border: 1px solid #ccc;
+    font-family: CMTA;
+}
+
+.secondrow {
+    background-color: #CCC;
+    color: #FFF;
+    font-family: CMTA;
+}
+
+.secondrow td {
+    text-align: center;
+    padding: 4px;
+	margin: 3px;
+	border: 1px solid #ccc;
+    font-family: CMTA;
+}
+
+.table {
+	border: 1px solid #CCC; font-family: CMTA, sans-serif;
+	font-size: 12px;
+    width: 600px;
+} 
+.table td {
+	padding: 4px;
+	margin: 3px;
+	border: 1px solid #ccc;
+    font-family: CMTA;
+}
+.table.firstrow th {
+	background-color: #323F47; 
+	color: #FFF;
+	font-weight: bold;
+    font-family: CMTA;
+}
+.table.firstrow td {
+        font-size: 16px;
+}
+.table heading {
+    width: 600px;
+}
+.footnotes {
+    background-color: #ccc;
+    font-family: CMTA;
+}
+.footnotes td {
+    text-align: center;
+    padding: 4px;
+	margin: 3px;
+	border: 1px solid #ccc;
+    font-family: CMTA;
+}
+
+/* Footer content */
+footer {
+  max-width: 950px;
+  margin: 0px auto;
+  font-size:10px;
+  letter-spacing:.05em;
+  font-weight:bold;
+  color:#000000;
+  text-transform:uppercase;
+  padding:20px 0 15px 0;
+  text-align: left;
+}

@@ -311,7 +311,6 @@ footer {
 /*
 @media(max-width:1200px) {
     .article-content {
-
     margin-left: 120px;
     max-width: 600px;
  
@@ -320,7 +319,6 @@ footer {
 
 @media(max-width:1375px) {
     .article-content {
-
     margin-left: 135px;
     max-width: 600px;
  
@@ -329,7 +327,6 @@ footer {
 
 @media(max-width:1400px) {
     .article-content {
-
     margin-left: 60px;
     max-width: 600px;
  
@@ -337,19 +334,15 @@ footer {
 }
 @media(max-width:1300px) {
     .article-content {
-
     margin-left: 120px;
     max-width: 600px;
- 
 }
 }
 
 @media(max-width:1270px) {
     .article-content {
-
     margin-left: 80px;
     max-width: 600px;
-
 }
 }
 */

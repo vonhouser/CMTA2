@@ -25,7 +25,7 @@
   <link href="css/styles.css" rel="stylesheet">
   <link href="css/font-awesome.min.css" rel="stylesheet">
   <link href="http://widget.cleanairpartners.net/css/airqualitywidget/widget.css" rel="stylesheet" type="text/css">
-  <link href="css/cmta3.css" rel="stylesheet">
+  <link href="css/cmta3.css.css" rel="stylesheet">
 
   <title>Central Maryland Transportation Alliance</title><!--[if lt IE 7]>
 
@@ -37,14 +37,17 @@
 <script>
 
 $(document).ready(function() {
-	var $flipcardContainer = $('.flipcardcontainer');
-    if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-		$flipcardContainer.addClass("flipback");
-	}
-    $flipcardContainer.on('click', function() {
-		$(this).toggleClass("flipback");
-    });
+    $('.flipcardcontainer').on('tap', function() {
 
+        if ($(this).attr('data-click-state') == 1) {
+            $(this).attr('data-click-state', 0);
+            $(this).removeClass('hover');  x
+        } else {
+            $(this).attr('data-click-state', 1);
+            $(this).addClass('hover');   
+        }
+
+    });
 });
 
 </script>
@@ -90,6 +93,7 @@ $(document).ready(function() {
             <p class="grade">C</p>
           </div>
           <div class="back">
+            <div><a href="stateofgoodrepair.html">Learn More</a></div>
             <div><a href="stateofgoodrepair.html">Learn More</a></div>
           </div>
         </div>
